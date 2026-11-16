@@ -58,11 +58,12 @@
     <form method="dialog" class="dlg">
       <h2 id="acc-title">Anmelden</h2>
       <div id="acc-login">
-        <p class="hint">Du bekommst einen Anmeldelink per E-Mail. Nur eingeladene Personen können sich anmelden.</p>
-        <label>E-Mail <input id="acc-email" type="email" autocomplete="email"></label>
+        <p class="hint">Zugang nur für eingeladene Personen – Zugangsdaten bekommst du vom Admin.</p>
+        <label>E-Mail <input id="acc-email" type="email" autocomplete="username"></label>
+        <label>Passwort <input id="acc-pass" type="password" autocomplete="current-password"></label>
         <div class="dlg-actions">
           <button value="cancel" class="btn">Abbrechen</button>
-          <button id="acc-send" class="btn btn-primary" value="default">Link senden</button>
+          <button id="acc-send" class="btn btn-primary" value="default">Anmelden</button>
         </div>
       </div>
       <div id="acc-profile" hidden>
@@ -71,6 +72,7 @@
           <div class="inline"><input id="p-home" placeholder="z. B. Bochum"><button type="button" id="p-geo" class="btn btn-small">Suchen</button></div>
         </label>
         <p id="p-geo-result" class="hint"></p>
+        <label>Neues Passwort (optional, mind. 8 Zeichen) <input id="p-pass" type="password" autocomplete="new-password" minlength="8"></label>
         <div class="dlg-actions">
           <button type="button" id="acc-logout" class="btn btn-danger">Abmelden</button>
           <button value="cancel" class="btn">Schließen</button>

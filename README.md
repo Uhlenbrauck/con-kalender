@@ -31,9 +31,9 @@ Frontend: statische Seite auf **GitHub Pages**. Datenbank und Login: **Supabase*
    - `SUPABASE_SERVICE_ROLE_KEY` = service_role key
 4. **Actions → „Cons synchronisieren“ → Run workflow**. Damit werden die Termine aus `data/cons.json` in die Datenbank übertragen.
 
-### 3. Dich selbst und deine Freunde einladen
-1. In Supabase: **Authentication → Users → Invite user** und die E-Mail-Adresse eintragen. Mach das für dich und für jeden Freund.
-2. Die eingeladene Person öffnet den Link aus der Mail und legt danach auf der Seite unter „Profil“ ihren Spitznamen und Startort fest.
+### 3. Zugänge anlegen (Login mit E-Mail + Passwort)
+1. In Supabase: **Authentication → Users → Add user → Create new user**, E-Mail und Startpasswort eintragen, **„Auto Confirm User“** anhaken. Für dich und jede weitere Person.
+2. Startpasswort persönlich weitergeben. Nach dem ersten Login: unter „Profil“ Spitzname, Startort und ein eigenes Passwort setzen.
 3. Dich selbst zum Admin machen: **Table Editor → profiles** → in deiner Zeile `is_admin` auf `true` setzen.
    Als Admin darfst du alle Cons bearbeiten. Alle anderen können Cons eintragen, aber nur ihre eigenen bearbeiten.
 

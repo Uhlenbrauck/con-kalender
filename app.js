@@ -44,6 +44,7 @@ function demoBackend() {
     async requests() { return ls.get("req", []); },
     async addRequest(name, note) { const r = ls.get("req", []); r.push({ id: Date.now() + "", name, note, status: "offen", requested_by: me.id }); ls.set("req", r); },
     async signIn() { throw new Error("Im Demo-Modus nicht verfügbar."); },
+    async setPassword() {},
     async signOut() {},
   };
 }
@@ -79,9 +80,11 @@ async function supabaseBackend() {
     async saveProfile(p) { ok(await sb.from("profiles").update(p).eq("id", session.user.id)); },
     async requests() { return session ? ok(await sb.from("con_requests").select("*").in("status", ["offen", "in Arbeit", "nicht gefunden"]).order("created_at")) : []; },
     async addRequest(name, note) { ok(await sb.from("con_requests").insert({ name, note, requested_by: session.user.id })); },
-    async signIn(email) {
-      ok(await sb.auth.signInWithOtp({ email, options: { shouldCreateUser: false, emailRedirectTo: location.origin + location.pathname } }));
+    async signIn(email, password) {
+      const { error } = await sb.auth.signInWithPassword({ email, password });
+      if (error) throw new Error(error.message === "Invalid login credentials" ? "E-Mail oder Passwort falsch." : error.message);
     },
+    async setPassword(password) { ok(await sb.auth.updateUser({ password })); },
     async signOut() { await sb.auth.signOut(); },
   };
 }
@@ -282,8 +285,8 @@ $("#btn-account").addEventListener("click", () => {
 });
 $("#acc-send").addEventListener("click", async (e) => {
   e.preventDefault();
-  const email = $("#acc-email").value.trim(); if (!email) return;
-  try { await api.signIn(email); $("#dlg-account").close(); showBanner("Anmeldelink verschickt – schau in dein Postfach.", 10000); }
+  const email = $("#acc-email").value.trim(), pass = $("#acc-pass").value; if (!email || !pass) return;
+  try { await api.signIn(email, pass); $("#acc-pass").value = ""; $("#dlg-account").close(); await load(); }
   catch (err) { showBanner("Anmeldung nicht möglich: " + err.message); }
 });
 $("#p-geo").addEventListener("click", async () => {
@@ -302,7 +305,13 @@ $("#p-save").addEventListener("click", async (e) => {
   const patch = { nickname: $("#p-nick").value.trim() || "Ich", home_label: $("#p-home").value.trim() || null };
   if (d.lat) Object.assign(patch, { home_lat: +d.lat, home_lon: +d.lon });
   if (!patch.home_label) Object.assign(patch, { home_lat: null, home_lon: null });
-  try { await api.saveProfile(patch); $("#dlg-account").close(); await load(); } catch (err) { showBanner("Fehler: " + err.message); }
+  const newPass = $("#p-pass").value;
+  if (newPass && newPass.length < 8) return showBanner("Passwort muss mindestens 8 Zeichen haben.");
+  try {
+    await api.saveProfile(patch);
+    if (newPass) { await api.setPassword(newPass); $("#p-pass").value = ""; showBanner("Passwort geändert.", 3000); }
+    $("#dlg-account").close(); await load();
+  } catch (err) { showBanner("Fehler: " + err.message); }
 });
 $("#acc-logout").addEventListener("click", async () => { await api.signOut(); $("#dlg-account").close(); await load(); });
 
