@@ -147,6 +147,56 @@ function fillTagFilter() {
   sel.value = tags.includes(cur) ? cur : "";
 }
 
+// ---------------------------------------------------------------- Karte
+let view = "list", map = null, layer = null;
+const COL = { fav: "#c8962c", going: "#2f7d4f", normal: "#7a2e3a", tbd: "#8a8a8a" };
+function setView(v) {
+  view = v;
+  $("#v-list").classList.toggle("on", v === "list"); $("#v-map").classList.toggle("on", v === "map");
+  $("#list").hidden = v === "map"; $("#map-wrap").hidden = v !== "map";
+  render();
+}
+function renderMap(rows, user, home) {
+  if (!window.L) { $("#map-hint").textContent = "Karte wird geladen …"; return setTimeout(() => view === "map" && render(), 500); }
+  if (!map) {
+    map = L.map("map", { scrollWheelZoom: true }).setView([51.2, 9.5], 6);
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
+    const lg = L.control({ position: "bottomleft" });
+    lg.onAdd = () => Object.assign(document.createElement("div"), { className: "legend",
+      innerHTML: `<div><i style="background:${COL.fav}"></i>Favorit</div><div><i style="background:${COL.going}"></i>jemand will hin</div>` +
+        `<div><i style="background:${COL.normal}"></i>Con</div><div><i style="background:${COL.tbd}"></i>Termin offen</div>` });
+    lg.addTo(map);
+    layer = L.layerGroup().addTo(map);
+  }
+  setTimeout(() => map.invalidateSize(), 0);
+  layer.clearLayers();
+  const groups = new Map();
+  for (const r of rows) { if (r.c.lat == null) continue; const k = (+r.c.lat).toFixed(3) + "," + (+r.c.lon).toFixed(3); (groups.get(k) || groups.set(k, []).get(k)).push(r); }
+  const pts = [];
+  for (const g of groups.values()) {
+    const fav = g.some((r) => state.fav.has(r.c.id)), going = g.some((r) => r.att.some((a) => a.status === "ja"));
+    const tbd = g.every((r) => !r.c.start_date);
+    const color = fav ? COL.fav : going ? COL.going : tbd ? COL.tbd : COL.normal;
+    const ll = [+g[0].c.lat, +g[0].c.lon]; pts.push(ll);
+    const html = g.map((r) => {
+      const url = safeUrl(r.c.url), going = r.att.filter((a) => a.status === "ja").map((a) => esc(state.profiles[a.user_id]?.nickname || "?"));
+      return `<div class="pc"><b>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(r.c.name)}</a>` : esc(r.c.name)}</b><br>` +
+        `${fmtRange(r.c.start_date, r.c.end_date)}${r.c.date_note && !r.c.start_date ? ` <i>(${esc(r.c.date_note)})</i>` : ""}<br>${esc(r.c.city || "")}` +
+        `${r.dist != null ? ` · ~${Math.round(r.dist)} km` : ""}${going.length ? `<br>Will hin: ${going.join(", ")}` : ""}</div>`;
+    }).join("");
+    L.circleMarker(ll, { radius: g.length > 1 ? 9 : 7, color: "#fff", weight: 2, fillColor: color, fillOpacity: .95 })
+      .bindPopup(html, { maxWidth: 260 }).bindTooltip(g.length > 1 ? `${g.length} Cons` : g[0].c.name).addTo(layer);
+  }
+  if (home) { L.circleMarker([home.home_lat, home.home_lon], { radius: 6, color: "#1f1b2e", weight: 2, fillColor: "#fff", fillOpacity: 1 })
+    .bindTooltip("Startort: " + (home.home_label || "")).addTo(layer); pts.push([home.home_lat, home.home_lon]); }
+  if (!renderMap.fitted && pts.length) { map.fitBounds(pts, { padding: [30, 30], maxZoom: 9 }); renderMap.fitted = true; }
+  const noLoc = rows.filter((r) => r.c.lat == null).length;
+  $("#map-hint").textContent = `${rows.length - noLoc} Cons auf der Karte` + (noLoc ? ` · ${noLoc} ohne Ort` : "");
+}
+$("#v-list").addEventListener("click", () => setView("list"));
+$("#v-map").addEventListener("click", () => setView("map"));
+
 // ---------------------------------------------------------------- Rendern
 function render() {
   const user = api.user(), prof = me();
@@ -186,6 +236,7 @@ function render() {
   });
   rows.sort((a, b) => (a.c.start_date || "9999").localeCompare(b.c.start_date || "9999") * (time === "past" ? -1 : 1));
 
+  if (view === "map") { renderMap(rows, user, home); $("#foot-info").textContent = `${rows.length} von ${state.cons.length} Cons`; return; }
   const list = $("#list");
   if (!rows.length) { list.innerHTML = '<p class="empty">Keine Cons für diese Auswahl.</p>'; return; }
   let html = "", lastMonth = "";

@@ -6,7 +6,9 @@
   <meta name="theme-color" content="#1f1b2e">
   <title>Rollenspiel-Con-Kalender</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎲</text></svg>">
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
   <link rel="stylesheet" href="style.css">
+  <script src="vendor/leaflet/leaflet.js" defer></script>
   <script src="config.js"></script>
 </head>
 <body>
@@ -42,12 +44,19 @@
       <label class="chip-toggle"><input type="checkbox" id="f-going"> Jemand will hin</label>
       <label class="chip-toggle"><input type="checkbox" id="f-mine"> Ich will hin</label>
       <button id="btn-ics" class="btn btn-small" title="Favoriten und Zusagen als Kalenderdatei">📅 .ics</button>
+      <div class="seg" role="group" aria-label="Ansicht">
+        <button id="v-list" class="on" type="button">Liste</button><button id="v-map" type="button">Karte</button>
+      </div>
     </div>
   </section>
 
   <section id="requests" class="requests" hidden></section>
 
   <main id="list" aria-live="polite"><p class="empty">Lade …</p></main>
+  <section id="map-wrap" hidden>
+    <div id="map"></div>
+    <p class="hint map-hint" id="map-hint"></p>
+  </section>
 
   <footer class="foot">
     <span id="foot-info"></span>
