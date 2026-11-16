@@ -9,7 +9,7 @@
     "lat": 53.24,
     "lon": 11.87,
     "url": "http://www.the-kraken.de",
-    "description": "Winterausgabe der Kraken-Con: mehrtägige Tischrollenspiel-Con mit Übernachtung, Runden werden vorab über Easy-Con angemeldet.",
+    "description": "Winterausgabe der Kraken: mehrtägiges Gaming-Retreat der Tentacles Gesellschaft e.V.; Spielrunden werden über Easy-Con organisiert, die Teilnahme-Anmeldung läuft über die Kraken-Seite.",
     "tags": [
       "Rollenspiel",
       "Übernachtung"
@@ -42,39 +42,41 @@
     "start_date": "2027-04-09",
     "end_date": "2027-04-11",
     "city": "Dortmund",
-    "address": "Messe Dortmund (Westfalenhallen)",
+    "address": "Messe Dortmund, Rheinlanddamm 200, 44139 Dortmund",
     "country": "DE",
     "lat": 51.495,
     "lon": 7.457,
-    "url": "https://www.messen.de/de/19525/dortmund/spiel-doch-in-dortmund/info",
-    "description": "Publikumsmesse für Brett- und Gesellschaftsspiele mit rund 190 Ausstellern; Rollenspiel eher am Rand.",
+    "url": "https://www.messe-dortmund.de/en/trade-fair-calendar/trade-fair-calendar/trade-fair-details/spiel-doch-in-dortmund-2027/",
+    "description": "Publikumsmesse für Brett- und Kartenspiele, 2027 erstmals in zwei Hallen; Rollenspiel eher am Rand.",
     "tags": [
       "Brettspiel",
       "Messe"
     ],
-    "status": "angekündigt",
-    "date_note": "Termin laut Messeverzeichnis",
-    "checked_at": "2026-11-16"
+    "status": "bestätigt",
+    "date_note": null,
+    "checked_at": "2026-11-16",
+    "price": "Tageskarte VVK 13,50 €"
   },
   {
     "slug": "fark-2027",
     "name": "FaRK – Fantasie und Rollenspiel Konvent 2027",
-    "start_date": null,
-    "end_date": null,
-    "city": "Schiffweiler",
+    "start_date": "2027-05-22",
+    "end_date": "2027-05-23",
+    "city": "Schiffweiler (Landsweiler-Reden)",
     "address": "Am Bergwerk Reden",
     "country": "DE",
     "lat": 49.346,
     "lon": 7.128,
-    "url": "https://www.messen.de/de/1342/branche/erlebnismesse?page=9",
-    "description": "Fantasy- und Rollenspiel-Event im ehemaligen Bergwerk Reden im Saarland.",
+    "url": "https://fark-messe.de/",
+    "description": "Großes Fantasy-Event im ehemaligen Bergwerk Reden mit Händlern, Cosplay, LARP, Steampunk und Bühnenprogramm; statt Eintritt wird gespendet.",
     "tags": [
-      "Rollenspiel",
       "Fantasy",
+      "LARP",
+      "Cosplay",
       "Messe"
     ],
-    "status": "angekündigt",
-    "date_note": "voraussichtlich Mai 2027",
+    "status": "bestätigt",
+    "date_note": null,
     "checked_at": "2026-11-16"
   },
   {
@@ -104,8 +106,8 @@
   {
     "slug": "feencon-2027",
     "name": "FeenCon 2027",
-    "start_date": null,
-    "end_date": null,
+    "start_date": "2027-07-10",
+    "end_date": "2027-07-11",
     "city": "Bonn-Beuel",
     "country": "DE",
     "lat": 50.737,
@@ -117,7 +119,7 @@
       "Tabletop"
     ],
     "status": "angekündigt",
-    "date_note": "Termin 2027 offen – traditionell das Wochenende eine Woche vor den NRW-Sommerferien",
+    "date_note": "voraussichtlich – Regel: Wochenende eine Woche vor den NRW-Sommerferien (ab 19.07.2027)",
     "checked_at": "2026-11-16",
     "address": "IGS Bonn-Beuel, Siegburger Straße 321, 53229 Bonn"
   },
@@ -170,7 +172,7 @@
     "country": "DE",
     "lat": 51.429,
     "lon": 7.004,
-    "url": "https://spiel-essen.de/",
+    "url": "https://www.spiel-essen.de/",
     "description": "Weltgrößte Publikumsmesse für Brettspiele; viele Rollenspielverlage zeigen dort ihre Neuheiten.",
     "tags": [
       "Brettspiel",
@@ -197,9 +199,10 @@
       "Verlage"
     ],
     "status": "angekündigt",
-    "date_note": "Termin 2027 offen – jährlich im November (Sa/So)",
+    "date_note": "Termin 2027 offen – jährlich im November (Sa/So); Wochenendtickets waren 2026 früh ausverkauft",
     "checked_at": "2026-11-16",
     "address": "Bürgerhaus Dreieich-Sprendlingen, Fichtestraße 50, 63303 Dreieich",
-    "lodging": "Keine Übernachtung auf dem Con-Gelände"
+    "lodging": "Keine Übernachtung auf dem Con-Gelände",
+    "deadlines": []
   }
 ]
