@@ -17,5 +17,9 @@
 - Einträge ohne Datum oder mit `checked_at` älter als 30 Tage erneut prüfen; Datum/Status/Fristen nachtragen.
 - Vergangene Cons nicht löschen (Archiv „War da“); stattdessen bei bekannter Folgeausgabe einen neuen Eintrag `<name>-<folgejahr>` anlegen.
 
+## Neue Cons entdecken
+- Con-Verzeichnisse regelmäßig abgleichen: https://www.we20.de/events und https://rollenspiel-kompass.de/conventions/ (außerdem Easy-Con „Open Conventions“).
+- Nur Cons in Deutschland (bzw. grenznah) aufnehmen; Einträge aus Verzeichnissen mit `date_note: "laut Con-Verzeichnis …"` markieren, bis die Con-Seite den Termin bestätigt – dann `status: "bestätigt"`, `date_note: null`, `url` auf die Con-Seite.
+
 ## Sonst
 - `config.js` enthält nur URL und anon-Key; niemals den service_role-Key ins Repo schreiben.
