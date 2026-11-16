@@ -18,7 +18,7 @@ jobs:
       - run: node scripts/backup.mjs
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
       - name: Backup committen (nur bei Änderungen)
         run: |
           git config user.name "github-actions[bot]"

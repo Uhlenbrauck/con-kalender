@@ -4,11 +4,11 @@
 // Teilnahmen und Favoriten werden bewusst NICHT gesichert, weil das Repo öffentlich ist.
 import { writeFile, mkdir } from "node:fs/promises";
 
-const { SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY } = process.env;
-if (!SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) { console.log("Secrets fehlen – übersprungen."); process.exit(0); }
+const { SUPABASE_URL, SUPABASE_SECRET_KEY } = process.env;
+if (!SUPABASE_URL || !SUPABASE_SECRET_KEY) { console.log("Secrets fehlen – übersprungen."); process.exit(0); }
 
 const res = await fetch(`${SUPABASE_URL}/rest/v1/cons?select=*&order=start_date.asc`, {
-  headers: { apikey: SUPABASE_SERVICE_ROLE_KEY, Authorization: `Bearer ${SUPABASE_SERVICE_ROLE_KEY}` },
+  headers: { apikey: SUPABASE_SECRET_KEY },
 });
 if (!res.ok) { console.error(res.status, await res.text()); process.exit(1); }
 const rows = (await res.json()).map(({ created_by, ...r }) => r);

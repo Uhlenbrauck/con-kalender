@@ -2,9 +2,9 @@
 // Läuft in der GitHub Action "Cons synchronisieren". Keine Abhängigkeiten nötig (Node 20+).
 import { readFile } from "node:fs/promises";
 
-const { SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY } = process.env;
-if (!SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) {
-  console.log("Secrets SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY fehlen – Sync übersprungen.");
+const { SUPABASE_URL, SUPABASE_SECRET_KEY } = process.env;
+if (!SUPABASE_URL || !SUPABASE_SECRET_KEY) {
+  console.log("Secrets SUPABASE_URL / SUPABASE_SECRET_KEY fehlen – Sync übersprungen.");
   process.exit(0);
 }
 
@@ -28,8 +28,8 @@ const rows = cons.map((c, i) => {
 const res = await fetch(`${SUPABASE_URL}/rest/v1/cons?on_conflict=slug`, {
   method: "POST",
   headers: {
-    apikey: SUPABASE_SERVICE_ROLE_KEY,
-    Authorization: `Bearer ${SUPABASE_SERVICE_ROLE_KEY}`,
+    apikey: SUPABASE_SECRET_KEY,
+    
     "Content-Type": "application/json",
     Prefer: "resolution=merge-duplicates,return=minimal",
   },

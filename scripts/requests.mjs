@@ -1,8 +1,8 @@
 // 1) Offene Anfragen aus Supabase → GitHub-Issues (Label "con-anfrage"), Status "in Arbeit".
 // 2) Bei geschlossenem Issue → Anfrage auf "erledigt" bzw. "nicht gefunden" (Label) setzen.
-const { SUPABASE_URL: SB, SUPABASE_SERVICE_ROLE_KEY: KEY, GITHUB_TOKEN, REPO, EVENT, ISSUE_NUMBER, ISSUE_LABELS } = process.env;
+const { SUPABASE_URL: SB, SUPABASE_SECRET_KEY: KEY, GITHUB_TOKEN, REPO, EVENT, ISSUE_NUMBER, ISSUE_LABELS } = process.env;
 if (!SB || !KEY) { console.log("Supabase-Secrets fehlen – übersprungen."); process.exit(0); }
-const sbH = { apikey: KEY, Authorization: `Bearer ${KEY}`, "Content-Type": "application/json" };
+const sbH = { apikey: KEY, "Content-Type": "application/json" };
 const ghH = { Authorization: `Bearer ${GITHUB_TOKEN}`, Accept: "application/vnd.github+json" };
 const must = async (r) => { if (!r.ok) throw new Error(`${r.status} ${await r.text()}`); return r; };
 

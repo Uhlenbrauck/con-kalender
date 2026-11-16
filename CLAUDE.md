@@ -22,4 +22,4 @@
 - Nur Cons in Deutschland (bzw. grenznah) aufnehmen; Einträge aus Verzeichnissen mit `date_note: "laut Con-Verzeichnis …"` markieren, bis die Con-Seite den Termin bestätigt – dann `status: "bestätigt"`, `date_note: null`, `url` auf die Con-Seite.
 
 ## Sonst
-- `config.js` enthält nur URL und anon-Key; niemals den service_role-Key ins Repo schreiben.
+- `config.js` enthält nur URL und Publishable Key; niemals den Secret Key (sb_secret_…) ins Repo schreiben.

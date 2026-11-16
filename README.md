@@ -20,15 +20,15 @@ Frontend: statische Seite auf **GitHub Pages**. Datenbank und Login: **Supabase*
 4. **Authentication → URL Configuration**:
    - *Site URL*: `https://<dein-github-name>.github.io/con-kalender/`
    - Dieselbe Adresse auch unter *Redirect URLs* eintragen.
-5. **Project Settings → API**: *Project URL* und *anon public key* kopieren und in `config.js` eintragen.
-   Den *service_role key* brauchst du nur für Schritt 2.4. **Gib ihn nie weiter und trag ihn nie in eine Datei ein.**
+5. **Project Settings → API**: *Project URL* und den **Publishable key** (`sb_publishable_…`) in `config.js` eintragen.
+   Den **Secret key** (`sb_secret_…`) brauchst du nur für Schritt 2.3. **Gib ihn nie weiter und trag ihn nie in eine Datei ein.**
 
 ### 2. GitHub
 1. Repo **Settings → Pages**: *Source: Deploy from a branch*, Branch `main`, Ordner `/ (root)`.
 2. **Settings → Actions → General → Workflow permissions**: „Read and write permissions“ aktivieren (das braucht das Backup).
 3. **Settings → Secrets and variables → Actions → New repository secret**:
    - `SUPABASE_URL` = Project URL
-   - `SUPABASE_SERVICE_ROLE_KEY` = service_role key
+   - `SUPABASE_SECRET_KEY` = Secret key (`sb_secret_…`)
 4. **Actions → „Cons synchronisieren“ → Run workflow**. Damit werden die Termine aus `data/cons.json` in die Datenbank übertragen.
 
 ### 3. Zugänge anlegen (Login mit E-Mail + Passwort)
