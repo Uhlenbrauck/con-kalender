@@ -18,7 +18,7 @@
 - Vergangene Cons nicht löschen (Archiv „War da“); stattdessen bei bekannter Folgeausgabe einen neuen Eintrag `<name>-<folgejahr>` anlegen.
 
 ## Neue Cons entdecken
-- Con-Verzeichnisse regelmäßig abgleichen: https://www.we20.de/events und https://rollenspiel-kompass.de/conventions/ (außerdem Easy-Con „Open Conventions“).
+- Con-Verzeichnisse regelmäßig abgleichen: https://www.we20.de/events und https://rollenspiel-kompass.de/conventions/ (außerdem Easy-Con „Open Conventions“ und das Tanelorn-Forum, Board „Con-Kalender“: https://www.tanelorn.net/index.php?board=40.0).
 - Nur Cons in Deutschland (bzw. grenznah) aufnehmen; Einträge aus Verzeichnissen mit `date_note: "laut Con-Verzeichnis …"` markieren, bis die Con-Seite den Termin bestätigt – dann `status: "bestätigt"`, `date_note: null`, `url` auf die Con-Seite.
 
 ## Sonst
