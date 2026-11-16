@@ -35,5 +35,12 @@ const res = await fetch(`${SUPABASE_URL}/rest/v1/cons?on_conflict=slug`, {
   },
   body: JSON.stringify(rows),
 });
-if (!res.ok) { console.error(await res.text()); process.exit(1); }
+if (!res.ok) {
+  console.error(await res.text());
+  const k = SUPABASE_SECRET_KEY.trim();
+  const kind = k.startsWith("sb_secret_") ? "Secret Key (ok)" : k.startsWith("sb_publishable_") ? "Publishable Key – falscher Schlüssel!"
+    : k.startsWith("eyJ") ? "Legacy-JWT" : k.startsWith("http") ? "eine URL – Secrets vertauscht?" : "unbekanntes Format";
+  console.error(`Diagnose: Secret SUPABASE_SECRET enthält ${kind}, Länge ${k.length}${k !== SUPABASE_SECRET_KEY ? ", mit Leerzeichen/Zeilenumbruch" : ""}.`);
+  process.exit(1);
+}
 console.log(`${rows.length} Cons synchronisiert.`);
