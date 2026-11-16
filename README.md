@@ -27,7 +27,6 @@ Frontend: statische Seite auf **GitHub Pages**. Datenbank und Login: **Supabase*
 1. Repo **Settings → Pages**: *Source: Deploy from a branch*, Branch `main`, Ordner `/ (root)`.
 2. **Settings → Actions → General → Workflow permissions**: „Read and write permissions“ aktivieren (das braucht das Backup).
 3. **Settings → Secrets and variables → Actions → New repository secret**:
-   - `SUPABASE_URL` = Project URL
    - `SUPABASE_SECRET` = Secret key (`sb_secret_…`)
 4. **Actions → „Cons synchronisieren“ → Run workflow**. Damit werden die Termine aus `data/cons.json` in die Datenbank übertragen.
 

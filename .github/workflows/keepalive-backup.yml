@@ -17,7 +17,7 @@ jobs:
         with: { node-version: 22 }
       - run: node scripts/backup.mjs
         env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_URL: https://nltyndgwvijrhrihwojn.supabase.co
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET }}
       - name: Backup committen (nur bei Änderungen)
         run: |

@@ -19,7 +19,7 @@ jobs:
         with: { node-version: 22 }
       - run: node scripts/requests.mjs
         env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_URL: https://nltyndgwvijrhrihwojn.supabase.co
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}

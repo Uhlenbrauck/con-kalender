@@ -15,5 +15,5 @@ jobs:
         with: { node-version: 22 }
       - run: node scripts/sync-cons.mjs
         env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_URL: https://nltyndgwvijrhrihwojn.supabase.co
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET }}
