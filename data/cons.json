@@ -1,0 +1,205 @@
+[
+  {
+    "slug": "kristmas-kraken-2026",
+    "name": "The Kristmas Kraken 2026",
+    "start_date": "2026-12-11",
+    "end_date": "2026-12-14",
+    "city": "Berge-Neuhausen (Prignitz)",
+    "country": "DE",
+    "lat": 53.24,
+    "lon": 11.87,
+    "url": "http://www.the-kraken.de",
+    "description": "Winterausgabe der Kraken-Con: mehrtägige Tischrollenspiel-Con mit Übernachtung, Runden werden vorab über Easy-Con angemeldet.",
+    "tags": [
+      "Rollenspiel",
+      "Übernachtung"
+    ],
+    "lodging": "vor Ort (Details auf der Con-Seite)",
+    "status": "bestätigt",
+    "checked_at": "2026-11-16"
+  },
+  {
+    "slug": "silvestertreffen-2026-27",
+    "name": "Silvestertreffen 2026/27",
+    "start_date": "2026-12-27",
+    "end_date": "2027-01-03",
+    "city": "Kyllburg (Eifel)",
+    "country": "DE",
+    "lat": 50.039,
+    "lon": 6.595,
+    "url": "https://neu.easy-con.org/convention/convention/ST26",
+    "description": "Rollenspiel-Treffen über den Jahreswechsel, eine Woche lang; Anmeldung über Easy-Con.",
+    "tags": [
+      "Rollenspiel",
+      "Übernachtung"
+    ],
+    "status": "bestätigt",
+    "checked_at": "2026-11-16"
+  },
+  {
+    "slug": "spiel-doch-dortmund-2027",
+    "name": "SPIEL DOCH! Dortmund 2027",
+    "start_date": "2027-04-09",
+    "end_date": "2027-04-11",
+    "city": "Dortmund",
+    "address": "Messe Dortmund (Westfalenhallen)",
+    "country": "DE",
+    "lat": 51.495,
+    "lon": 7.457,
+    "url": "https://www.messen.de/de/19525/dortmund/spiel-doch-in-dortmund/info",
+    "description": "Publikumsmesse für Brett- und Gesellschaftsspiele mit rund 190 Ausstellern; Rollenspiel eher am Rand.",
+    "tags": [
+      "Brettspiel",
+      "Messe"
+    ],
+    "status": "angekündigt",
+    "date_note": "Termin laut Messeverzeichnis",
+    "checked_at": "2026-11-16"
+  },
+  {
+    "slug": "fark-2027",
+    "name": "FaRK – Fantasie und Rollenspiel Konvent 2027",
+    "start_date": null,
+    "end_date": null,
+    "city": "Schiffweiler",
+    "address": "Am Bergwerk Reden",
+    "country": "DE",
+    "lat": 49.346,
+    "lon": 7.128,
+    "url": "https://www.messen.de/de/1342/branche/erlebnismesse?page=9",
+    "description": "Fantasy- und Rollenspiel-Event im ehemaligen Bergwerk Reden im Saarland.",
+    "tags": [
+      "Rollenspiel",
+      "Fantasy",
+      "Messe"
+    ],
+    "status": "angekündigt",
+    "date_note": "voraussichtlich Mai 2027",
+    "checked_at": "2026-11-16"
+  },
+  {
+    "slug": "nordcon-2027",
+    "name": "NordCon 2027",
+    "start_date": "2027-06-04",
+    "end_date": "2027-06-06",
+    "city": "Hamburg-Billstedt",
+    "address": "Brüder-Grimm-Schule, Steinadlerweg 26, Hamburg",
+    "country": "DE",
+    "lat": 53.541,
+    "lon": 10.115,
+    "url": "https://www.nordcon-wizard.de/",
+    "description": "Eine der ältesten Phantastik-Cons Deutschlands: 48 Stunden durchgehend Pen & Paper, LARP, Brettspiel, Lesungen und Markt, rund 7.000 Besucher.",
+    "tags": [
+      "Rollenspiel",
+      "LARP",
+      "Brettspiel",
+      "Phantastik"
+    ],
+    "status": "bestätigt",
+    "date_note": null,
+    "checked_at": "2026-11-16",
+    "price": "nur Dauerkarten: 10 € (ermäßigt 5 €, Sonntag 5 €), nur bar",
+    "lodging": "Übernachtung auf dem Gelände"
+  },
+  {
+    "slug": "feencon-2027",
+    "name": "FeenCon 2027",
+    "start_date": null,
+    "end_date": null,
+    "city": "Bonn-Beuel",
+    "country": "DE",
+    "lat": 50.737,
+    "lon": 7.127,
+    "url": "https://www.feencon.de/",
+    "description": "Traditionsreiche Rollenspiel-Con der Gilde der Fantasy-Rollenspieler e.V., inzwischen auch mit Tabletop, Händlern und Autor:innen.",
+    "tags": [
+      "Rollenspiel",
+      "Tabletop"
+    ],
+    "status": "angekündigt",
+    "date_note": "Termin 2027 offen – traditionell das Wochenende eine Woche vor den NRW-Sommerferien",
+    "checked_at": "2026-11-16",
+    "address": "IGS Bonn-Beuel, Siegburger Straße 321, 53229 Bonn"
+  },
+  {
+    "slug": "lindencon-2027",
+    "name": "LindenCon XXIV 2027",
+    "start_date": "2027-06-18",
+    "end_date": "2027-06-20",
+    "city": "Leipzig",
+    "country": "DE",
+    "lat": 51.34,
+    "lon": 12.375,
+    "url": "https://lindencon.rollenspielraum.de/",
+    "description": "Leipziger Tischrollenspiel-Con mit One-Shots von 3–5 Stunden und jährlichem Motto (2027: „Back to school!“); Runden und Voranmeldung über Easy-Con.",
+    "tags": [
+      "Rollenspiel"
+    ],
+    "status": "bestätigt",
+    "date_note": null,
+    "checked_at": "2026-11-16",
+    "lodging": "Keine Übernachtung auf dem Gelände (2026); Jugendherberge in der Nähe, Bettenbörse im Discord"
+  },
+  {
+    "slug": "bavariacon-2027",
+    "name": "BavariaCon 2027",
+    "start_date": "2027-02-06",
+    "end_date": "2027-02-07",
+    "city": "Germering (bei München)",
+    "address": "Stadthalle Germering, Landsberger Straße 39, 82110 Germering",
+    "country": "DE",
+    "lat": 48.133,
+    "lon": 11.37,
+    "url": "https://nerds-united-ev.de/bavariacon/",
+    "description": "Rollen- und Brettspiel-Con von Nerds United e.V. und Würfel & Schwert mit vielen kurzen Pen-&-Paper-Runden (u. a. DSA, D&D, Splittermond), Händlern und Künstler:innen; Tickets über pretix.",
+    "tags": [
+      "Rollenspiel",
+      "Brettspiel"
+    ],
+    "status": "bestätigt",
+    "date_note": null,
+    "checked_at": "2026-11-16"
+  },
+  {
+    "slug": "spiel-essen-2027",
+    "name": "SPIEL Essen 2027",
+    "start_date": "2027-10-21",
+    "end_date": "2027-10-24",
+    "city": "Essen",
+    "address": "Messe Essen, Messeplatz 1, 45131 Essen",
+    "country": "DE",
+    "lat": 51.429,
+    "lon": 7.004,
+    "url": "https://spiel-essen.de/",
+    "description": "Weltgrößte Publikumsmesse für Brettspiele; viele Rollenspielverlage zeigen dort ihre Neuheiten.",
+    "tags": [
+      "Brettspiel",
+      "Rollenspiel",
+      "Messe"
+    ],
+    "price": "Tagestickets, Vorverkauf online",
+    "status": "bestätigt",
+    "checked_at": "2026-11-16"
+  },
+  {
+    "slug": "dreieichcon-2027",
+    "name": "DreieichCon 2027",
+    "start_date": null,
+    "end_date": null,
+    "city": "Dreieich",
+    "country": "DE",
+    "lat": 50.016,
+    "lon": 8.7,
+    "url": "https://www.dreieichcon.de/",
+    "description": "Größte Pen-&-Paper-Con im deutschsprachigen Raum: ehrenamtlich organisiert, fast 400 Spielrunden und über 40 Verlage an zwei Tagen.",
+    "tags": [
+      "Rollenspiel",
+      "Verlage"
+    ],
+    "status": "angekündigt",
+    "date_note": "Termin 2027 offen – jährlich im November (Sa/So)",
+    "checked_at": "2026-11-16",
+    "address": "Bürgerhaus Dreieich-Sprendlingen, Fichtestraße 50, 63303 Dreieich",
+    "lodging": "Keine Übernachtung auf dem Con-Gelände"
+  }
+]

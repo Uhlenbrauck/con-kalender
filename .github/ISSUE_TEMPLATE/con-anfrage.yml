@@ -1,0 +1,17 @@
+name: Con-Anfrage
+description: Nur den Namen angeben – Claude recherchiert Termin, Ort, Beschreibung und Link.
+title: "Con-Anfrage: "
+labels: ["con-anfrage"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name der Con
+      placeholder: z. B. FeenCon
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Hinweise (optional)
+      placeholder: z. B. Stadt, Link oder Jahr

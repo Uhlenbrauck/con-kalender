@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f1b2e">
+  <title>Rollenspiel-Con-Kalender</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎲</text></svg>">
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <h1 id="title">Rollenspiel-Con-Kalender</h1>
+    <div class="topbar-actions">
+      <button id="btn-add" class="btn btn-primary" hidden>+ Con</button>
+      <button id="btn-account" class="btn">Anmelden</button>
+    </div>
+  </header>
+
+  <div id="banner" class="banner" hidden></div>
+
+  <section class="filters" aria-label="Filter">
+    <input id="f-search" type="search" placeholder="Suchen (Name, Ort, Tag) …" autocomplete="off">
+    <div class="filter-row">
+      <select id="f-time" aria-label="Zeitraum">
+        <option value="upcoming">Kommende</option>
+        <option value="past">Vergangene</option>
+        <option value="all">Alle</option>
+      </select>
+      <select id="f-dist" aria-label="Maximale Entfernung">
+        <option value="">Jede Entfernung</option>
+        <option value="50">≤ 50 km</option>
+        <option value="100">≤ 100 km</option>
+        <option value="200">≤ 200 km</option>
+        <option value="350">≤ 350 km</option>
+      </select>
+      <select id="f-tag" aria-label="Tag"><option value="">Alle Tags</option></select>
+    </div>
+    <div class="filter-row chips">
+      <label class="chip-toggle"><input type="checkbox" id="f-fav"> ★ Favoriten</label>
+      <label class="chip-toggle"><input type="checkbox" id="f-going"> Jemand will hin</label>
+      <label class="chip-toggle"><input type="checkbox" id="f-mine"> Ich will hin</label>
+      <button id="btn-ics" class="btn btn-small" title="Favoriten und Zusagen als Kalenderdatei">📅 .ics</button>
+    </div>
+  </section>
+
+  <section id="requests" class="requests" hidden></section>
+
+  <main id="list" aria-live="polite"><p class="empty">Lade …</p></main>
+
+  <footer class="foot">
+    <span id="foot-info"></span>
+  </footer>
+
+  <!-- Login / Profil -->
+  <dialog id="dlg-account">
+    <form method="dialog" class="dlg">
+      <h2 id="acc-title">Anmelden</h2>
+      <div id="acc-login">
+        <p class="hint">Du bekommst einen Anmeldelink per E-Mail. Nur eingeladene Personen können sich anmelden.</p>
+        <label>E-Mail <input id="acc-email" type="email" autocomplete="email"></label>
+        <div class="dlg-actions">
+          <button value="cancel" class="btn">Abbrechen</button>
+          <button id="acc-send" class="btn btn-primary" value="default">Link senden</button>
+        </div>
+      </div>
+      <div id="acc-profile" hidden>
+        <label>Spitzname (für andere sichtbar) <input id="p-nick" maxlength="30"></label>
+        <label>Startort für Entfernungen
+          <div class="inline"><input id="p-home" placeholder="z. B. Bochum"><button type="button" id="p-geo" class="btn btn-small">Suchen</button></div>
+        </label>
+        <p id="p-geo-result" class="hint"></p>
+        <div class="dlg-actions">
+          <button type="button" id="acc-logout" class="btn btn-danger">Abmelden</button>
+          <button value="cancel" class="btn">Schließen</button>
+          <button id="p-save" class="btn btn-primary" value="default">Speichern</button>
+        </div>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Con anlegen / bearbeiten -->
+  <dialog id="dlg-con">
+    <form method="dialog" class="dlg" id="con-form">
+      <h2 id="con-form-title">Con eintragen</h2>
+      <div id="quick-req" class="quick">
+        <label>Nur den Namen eingeben – Claude recherchiert Termin, Ort, Beschreibung und Link
+          <div class="inline"><input id="q-name" placeholder="z. B. FeenCon"><button type="button" id="q-send" class="btn btn-primary btn-small">Anfragen</button></div>
+        </label>
+        <input id="q-note" placeholder="Hinweis (optional), z. B. Stadt oder Link">
+        <p class="hint">Oder alles selbst ausfüllen:</p>
+      </div>
+      <label>Name* <input name="name" required></label>
+      <div class="grid2">
+        <label>Beginn <input name="start_date" type="date"></label>
+        <label>Ende <input name="end_date" type="date"></label>
+      </div>
+      <label>Hinweis zum Datum <input name="date_note" placeholder="z. B. Termin noch nicht bestätigt"></label>
+      <div class="grid2">
+        <label>Ort <input name="city"></label>
+        <label>Land <input name="country" maxlength="2" placeholder="DE"></label>
+      </div>
+      <label>Adresse / Location
+        <div class="inline"><input name="address"><button type="button" id="c-geo" class="btn btn-small">Koordinaten</button></div>
+      </label>
+      <p id="c-geo-result" class="hint"></p>
+      <input type="hidden" name="lat"><input type="hidden" name="lon">
+      <label>Link zur Con-Seite <input name="url" type="url" placeholder="https://"></label>
+      <label>Kurzbeschreibung (eigene Worte) <textarea name="description" rows="3" maxlength="600"></textarea></label>
+      <label>Tags (Komma-getrennt) <input name="tags" placeholder="Rollenspiel, Brettspiel, Cthulhu"></label>
+      <div class="grid2">
+        <label>Preis <input name="price" placeholder="z. B. 20 € Wochenende"></label>
+        <label>Übernachtung <input name="lodging" placeholder="z. B. Schlafsaal, Hotels"></label>
+      </div>
+      <label>Fristen (eine pro Zeile: <code>JJJJ-MM-TT Bezeichnung</code>)
+        <textarea name="deadlines" rows="2" placeholder="2027-03-01 Spielrunden-Anmeldung"></textarea>
+      </label>
+      <label>Status
+        <select name="status"><option>angekündigt</option><option>bestätigt</option><option>abgesagt</option></select>
+      </label>
+      <div class="dlg-actions">
+        <button type="button" id="con-delete" class="btn btn-danger" hidden>Löschen</button>
+        <button value="cancel" class="btn" formnovalidate>Abbrechen</button>
+        <button class="btn btn-primary" value="default">Speichern</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
