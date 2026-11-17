@@ -114,7 +114,7 @@ dialog::backdrop { background: #0008; }
 
 @media (max-width: 520px) {
   .filter-row { grid-template-columns: 1fr 1fr; }
-  .filter-row select:last-child { grid-column: span 2; }
+  .filter-row:not(.att-filter) select:last-child { grid-column: span 2; }
   .grid2 { grid-template-columns: 1fr; }
   .topbar h1 { font-size: .95rem; }
 }
@@ -135,3 +135,5 @@ dialog::backdrop { background: #0008; }
 .leaflet-popup-content .pc:last-child { margin-bottom: 0; }
 .legend { background: var(--card); color: var(--ink); padding: .35rem .55rem; border-radius: 8px; font-size: .75rem; line-height: 1.5; box-shadow: 0 1px 4px #0003; }
 .legend i { display: inline-block; width: .7rem; height: .7rem; border-radius: 50%; margin-right: .3rem; vertical-align: -1px; }
+
+.filter-row.att-filter { grid-template-columns: 1fr 1fr; }

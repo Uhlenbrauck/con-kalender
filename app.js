@@ -197,12 +197,26 @@ function renderMap(rows, user, home) {
 $("#v-list").addEventListener("click", () => setView("list"));
 $("#v-map").addEventListener("click", () => setView("map"));
 
+// Personen-Auswahl für den Teilnahme-Filter (Ich, Jemand, einzelne Freunde)
+function fillWhoFilter(user) {
+  if (!user) return;
+  const sel = $("#f-who"), cur = sel.value || "me";
+  const others = Object.values(state.profiles).filter((p) => p.id !== user.id)
+    .sort((a, b) => (a.nickname || "").localeCompare(b.nickname || "", "de"));
+  const html = '<option value="me">Ich</option><option value="any">Jemand aus der Gruppe</option>' +
+    others.map((p) => `<option value="${esc(p.id)}">${esc(p.nickname || "?")}</option>`).join("");
+  if (sel.dataset.sig !== html) { sel.innerHTML = html; sel.dataset.sig = html; }
+  sel.value = [...sel.options].some((o) => o.value === cur) ? cur : "me";
+}
+
 // ---------------------------------------------------------------- Rendern
 function render() {
   const user = api.user(), prof = me();
   $("#btn-account").textContent = user ? (prof?.nickname || "Profil") : "Anmelden";
   $("#btn-add").hidden = !user;
-  for (const id of ["f-fav", "f-going", "f-mine"]) $("#" + id).closest("label").hidden = !user;
+  $("#f-fav").closest("label").hidden = !user;
+  $("#att-filter").hidden = !user;
+  fillWhoFilter(user);
 
   const rq = $("#requests");
   rq.hidden = !user || !state.req.length;
@@ -213,7 +227,7 @@ function render() {
 
   const q = $("#f-search").value.trim().toLowerCase();
   const time = $("#f-time").value, maxDist = +$("#f-dist").value || 0, tag = $("#f-tag").value;
-  const onlyFav = $("#f-fav").checked, onlyGoing = $("#f-going").checked, onlyMine = $("#f-mine").checked;
+  const onlyFav = $("#f-fav").checked, who = $("#f-who").value, stat = user ? $("#f-status").value : "";
   const t0 = today();
   const home = prof && prof.home_lat != null ? prof : null;
 
@@ -229,8 +243,11 @@ function render() {
     if (maxDist && (dist == null || dist > maxDist)) return false;
     if (tag && !(c.tags || []).includes(tag)) return false;
     if (onlyFav && !state.fav.has(c.id)) return false;
-    if (onlyGoing && !att.some((a) => a.status === "ja")) return false;
-    if (onlyMine && mine !== "ja") return false;
+    if (stat) {
+      const pool = who === "me" ? att.filter((a) => a.user_id === user.id)
+        : who === "any" ? att : att.filter((a) => a.user_id === who);
+      if (stat === "none" ? pool.length : !pool.some((a) => a.status === stat)) return false;
+    }
     if (q && ![c.name, c.city, c.description, ...(c.tags || [])].join(" ").toLowerCase().includes(q)) return false;
     return true;
   });
@@ -319,7 +336,12 @@ $("#list").addEventListener("click", async (e) => {
   } catch (err) { showBanner("Fehler: " + err.message); }
 });
 
-for (const id of ["f-search", "f-time", "f-dist", "f-tag", "f-fav", "f-going", "f-mine"]) $("#" + id).addEventListener("input", render);
+for (const id of ["f-search", "f-time", "f-dist", "f-tag", "f-fav", "f-who"]) $("#" + id).addEventListener("input", render);
+// "War da" betrifft vergangene Cons – Zeitraum dann automatisch erweitern
+$("#f-status").addEventListener("input", () => {
+  if ($("#f-status").value === "war_da" && $("#f-time").value === "upcoming") $("#f-time").value = "all";
+  render();
+});
 
 // Konto / Profil
 $("#btn-account").addEventListener("click", () => {

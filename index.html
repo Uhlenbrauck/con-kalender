@@ -39,10 +39,22 @@
       </select>
       <select id="f-tag" aria-label="Tag"><option value="">Alle Tags</option></select>
     </div>
+    <div class="filter-row att-filter" id="att-filter" hidden>
+      <select id="f-who" aria-label="Wessen Teilnahme">
+        <option value="me">Ich</option>
+        <option value="any">Jemand aus der Gruppe</option>
+      </select>
+      <select id="f-status" aria-label="Teilnahme-Status">
+        <option value="">Teilnahme: alle</option>
+        <option value="ja">Will hin</option>
+        <option value="vielleicht">Vielleicht</option>
+        <option value="nein">Nicht</option>
+        <option value="war_da">War da</option>
+        <option value="none">Noch keine Angabe</option>
+      </select>
+    </div>
     <div class="filter-row chips">
       <label class="chip-toggle"><input type="checkbox" id="f-fav"> ★ Favoriten</label>
-      <label class="chip-toggle"><input type="checkbox" id="f-going"> Jemand will hin</label>
-      <label class="chip-toggle"><input type="checkbox" id="f-mine"> Ich will hin</label>
       <button id="btn-ics" class="btn btn-small" title="Favoriten und Zusagen als Kalenderdatei">📅 .ics</button>
       <div class="seg" role="group" aria-label="Ansicht">
         <button id="v-list" class="on" type="button">Liste</button><button id="v-map" type="button">Karte</button>
