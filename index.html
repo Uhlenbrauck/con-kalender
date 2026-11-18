@@ -93,6 +93,22 @@
           <div class="inline"><input id="p-home" placeholder="z. B. Bochum"><button type="button" id="p-geo" class="btn btn-small">Suchen</button></div>
         </label>
         <p id="p-geo-result" class="hint"></p>
+        <div class="cal-box">
+          <b>📅 Kalender-Abo</b>
+          <p class="hint">Deine Favoriten und „Will hin“-Cons (plus Fristen) als eigener Kalender in Google, Apple oder Outlook – aktualisiert sich automatisch.</p>
+          <div id="cal-actions">
+            <button type="button" id="cal-show" class="btn btn-small">Abo-Link anzeigen</button>
+          </div>
+          <div id="cal-link" hidden>
+            <div class="inline"><input id="cal-url" readonly><button type="button" id="cal-copy" class="btn btn-small">Kopieren</button></div>
+            <div class="inline cal-btns">
+              <a id="cal-google" class="btn btn-small btn-primary" target="_blank" rel="noopener">In Google Kalender abonnieren</a>
+              <a id="cal-webcal" class="btn btn-small">Apple/Outlook</a>
+              <button type="button" id="cal-rotate" class="btn btn-small btn-danger">Neuer Link</button>
+            </div>
+            <p class="hint">Den Link nicht weitergeben – wer ihn hat, sieht deine Favoriten. „Neuer Link“ macht den alten ungültig.</p>
+          </div>
+        </div>
         <label>Neues Passwort (optional, mind. 8 Zeichen) <input id="p-pass" type="password" autocomplete="new-password" minlength="8"></label>
         <div class="dlg-actions">
           <button type="button" id="acc-logout" class="btn btn-danger">Abmelden</button>

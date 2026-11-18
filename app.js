@@ -45,6 +45,7 @@ function demoBackend() {
     async addRequest(name, note) { const r = ls.get("req", []); r.push({ id: Date.now() + "", name, note, status: "offen", requested_by: me.id }); ls.set("req", r); },
     async signIn() { throw new Error("Im Demo-Modus nicht verfügbar."); },
     async setPassword() {},
+    async calToken() { return "00000000-0000-0000-0000-000000000000"; },
     async signOut() {},
   };
 }
@@ -85,6 +86,7 @@ async function supabaseBackend() {
       if (error) throw new Error(error.message === "Invalid login credentials" ? "E-Mail oder Passwort falsch." : error.message);
     },
     async setPassword(password) { ok(await sb.auth.updateUser({ password })); },
+    async calToken(rotate) { return ok(await sb.rpc(rotate ? "rotate_calendar_token" : "my_calendar_token")); },
     async signOut() { await sb.auth.signOut(); },
   };
 }
@@ -353,6 +355,7 @@ $("#btn-account").addEventListener("click", () => {
     $("#p-nick").value = p?.nickname || ""; $("#p-home").value = p?.home_label || "";
     $("#p-geo-result").textContent = p?.home_lat != null ? `Gespeichert: ${p.home_lat.toFixed(3)}, ${p.home_lon.toFixed(3)}` : "Noch kein Startort.";
     delete $("#p-home").dataset.lat;
+    $("#cal-link").hidden = true; $("#cal-actions").hidden = false;
   }
   $("#dlg-account").showModal();
 });
@@ -387,6 +390,26 @@ $("#p-save").addEventListener("click", async (e) => {
   } catch (err) { showBanner("Fehler: " + err.message); }
 });
 $("#acc-logout").addEventListener("click", async () => { await api.signOut(); $("#dlg-account").close(); await load(); });
+
+// Kalender-Abo
+async function showCal(rotate) {
+  try {
+    const token = await api.calToken(rotate);
+    const url = `${CFG.SUPABASE_URL || "https://example.supabase.co"}/functions/v1/ics?token=${token}`;
+    const webcal = url.replace(/^https:/, "webcal:");
+    $("#cal-url").value = url;
+    $("#cal-google").href = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(webcal);
+    $("#cal-webcal").href = webcal;
+    $("#cal-link").hidden = false; $("#cal-actions").hidden = true;
+    if (rotate) showBanner("Neuer Abo-Link erzeugt – im Kalender bitte neu abonnieren.", 5000);
+  } catch (err) { showBanner("Fehler: " + err.message); }
+}
+$("#cal-show").addEventListener("click", () => showCal(false));
+$("#cal-rotate").addEventListener("click", () => showCal(true));
+$("#cal-copy").addEventListener("click", async () => {
+  try { await navigator.clipboard.writeText($("#cal-url").value); showBanner("Link kopiert.", 2000); }
+  catch { $("#cal-url").select(); }
+});
 
 // Con-Formular
 let editing = null;

@@ -137,3 +137,7 @@ dialog::backdrop { background: #0008; }
 .legend i { display: inline-block; width: .7rem; height: .7rem; border-radius: 50%; margin-right: .3rem; vertical-align: -1px; }
 
 .filter-row.att-filter { grid-template-columns: 1fr 1fr; }
+
+.cal-box { display: grid; gap: .4rem; padding: .7rem; border-radius: 10px; background: var(--bg); border: 1px solid var(--line); color: var(--ink); font-size: .9rem; }
+.cal-btns { flex-wrap: wrap; }
+.cal-btns .btn { text-decoration: none; }
