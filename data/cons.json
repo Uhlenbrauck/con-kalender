@@ -341,7 +341,7 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-18"
   },
   {
     "slug": "heinzcon-2027",
@@ -1020,7 +1020,7 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-18"
   },
   {
     "slug": "aschentage-2027",
@@ -1205,20 +1205,20 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-18"
   },
   {
     "slug": "klostercon-2027",
     "name": "KlosterCon (Midgard-Con) 2027",
-    "start_date": null,
-    "end_date": null,
-    "date_note": "Termin 2027 offen – 2026 im April",
+    "start_date": "2027-09-03",
+    "end_date": "2027-09-05",
+    "date_note": "Frühanreise ab 2. September möglich; 2027 erstmals im Spätsommer statt im April",
     "city": "Ruhpolding",
-    "address": null,
+    "address": "Labenbachhof, Ruhpolding",
     "country": "DE",
     "lat": 47.76,
     "lon": 12.64,
-    "url": "https://www.tanelorn.net/index.php?board=40.0",
+    "url": "https://www.midgard-cons.info/klostercon",
     "description": "Midgard-Con in Ruhpolding mit Übernachtung.",
     "tags": [
       "Rollenspiel",
@@ -1228,8 +1228,8 @@
     "price": null,
     "lodging": null,
     "deadlines": [],
-    "status": "angekündigt",
-    "checked_at": "2026-11-16"
+    "status": "bestätigt",
+    "checked_at": "2026-11-18"
   },
   {
     "slug": "palaver-zeltcon-2027",
@@ -1276,7 +1276,7 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-18"
   },
   {
     "slug": "saarcon-2027",
@@ -1288,7 +1288,7 @@
     "address": null,
     "country": "DE",
     "lat": 49.23,
-    "lon": 7.0,
+    "lon": 7,
     "url": "https://www.tanelorn.net/index.php?board=40.0",
     "description": "Rollenspiel-Con in Saarbrücken.",
     "tags": [
@@ -1365,5 +1365,30 @@
     "deadlines": [],
     "status": "angekündigt",
     "checked_at": "2026-11-16"
+  },
+  {
+    "slug": "bergisch-brandschatzen-2027",
+    "name": "Bergisch Brandschatzen 2027",
+    "start_date": "2027-03-06",
+    "end_date": "2027-03-07",
+    "date_note": null,
+    "city": "Radevormwald",
+    "address": "Bürgerhaus Radevormwald, Schlossmacherstraße 4, 42477 Radevormwald",
+    "country": "DE",
+    "lat": 51.2,
+    "lon": 7.36,
+    "url": "https://www.bergisch-brandschatzen.de/",
+    "description": "Hobby-Flohmarkt im Bergischen Land rund um Tabletop, LARP, Pen & Paper und Brettspiele, ergänzt um offene Spielrunden und Workshops. Eher Treffen als klassische Con.",
+    "tags": [
+      "Tabletop",
+      "Rollenspiel",
+      "LARP",
+      "Brettspiel"
+    ],
+    "price": "Tagesticket 2 € (inkl. Getränk), Kinder bis 13 frei; Verkaufstisch 15 €/Tag",
+    "lodging": null,
+    "deadlines": [],
+    "status": "bestätigt",
+    "checked_at": "2026-11-18"
   }
 ]
