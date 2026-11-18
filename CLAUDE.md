@@ -21,5 +21,15 @@
 - Con-Verzeichnisse regelmäßig abgleichen: https://www.we20.de/events und https://rollenspiel-kompass.de/conventions/ (außerdem Easy-Con „Open Conventions“ und das Tanelorn-Forum, Board „Con-Kalender“: https://www.tanelorn.net/index.php?board=40.0).
 - Nur Cons in Deutschland (bzw. grenznah) aufnehmen; Einträge aus Verzeichnissen mit `date_note: "laut Con-Verzeichnis …"` markieren, bis die Con-Seite den Termin bestätigt – dann `status: "bestätigt"`, `date_note: null`, `url` auf die Con-Seite.
 
+## Regionale Spieletreffs (Wuppertal / Hagen) – bei jedem Lauf prüfen
+Quellen:
+- Stadtbibliothek Wuppertal, Pen&Paper-Termine („Großechsen & Gewölbe“, „Miniechsen“, „Kleinechsen & Kerker“ in Barmen): https://www.wuppertal.de/microsite/stadtbibliothek/aktuell/meldungen/grossechsen-gewoelbe-pen-paper-termine.php sowie die Quartals-/Monatsprogramme (PDF) unter wuppertal.de/microsite/stadtbibliothek
+- Stadtbücherei Hagen (Springe) und Stadtteilbüchereien inkl. Hohenlimburg: Meldungen/Termine auf https://www.hagen.de (Suche „Pen and Paper“, „Rollenspiel“)
+- Kulturzentrum Pelmke, „Der Rollenspielabend“: https://www.pelmke.de/veranstaltungen/
+Regeln:
+- Jeder konkrete Termin = eigener Eintrag mit Slug `<name>-JJJJ-MM-TT`, Uhrzeit vorne in `description` („14–18 Uhr · …“), Tags `Rollenspiel`, `Spieletreff`, Ort (`Wuppertal`/`Hagen`), ggf. `Bibliothek`/`Kinder`.
+- Platzhalter ohne Datum (`kleinechsen-kerker-barmen`, `pelmke-rollenspielabend-naechster`) aktuell halten: sobald ein neuer Termin bekannt ist, dated Eintrag anlegen und im Platzhalter `date_note` auf „zuletzt …“ aktualisieren.
+- Reine Brettspiel-/Gaming-Angebote (z. B. Spieleabend, Gaming-Tag) nicht aufnehmen – nur Rollenspiel/Pen & Paper.
+
 ## Sonst
 - `config.js` enthält nur URL und Publishable Key; niemals den Secret Key (sb_secret_…) ins Repo schreiben.
