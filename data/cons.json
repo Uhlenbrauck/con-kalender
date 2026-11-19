@@ -262,7 +262,7 @@
     "city": "Westheim (Mittelfranken)",
     "address": null,
     "country": "DE",
-    "lat": 49.0,
+    "lat": 49,
     "lon": 10.67,
     "url": "https://www.we20.de/events",
     "description": "Mehrtägiges Spieletreffen mit Pen-&-Paper-Runden.",
@@ -1265,7 +1265,7 @@
     "address": null,
     "country": "DE",
     "lat": 49.6,
-    "lon": 11.0,
+    "lon": 11,
     "url": "https://www.tanelorn.net/index.php?board=40.0",
     "description": "Traditionelles Spiele-Wochenende mit Rollenspiel- und Brettspielangebot.",
     "tags": [
@@ -1516,5 +1516,29 @@
       "Hagen",
       "Brettspiel"
     ]
+  },
+  {
+    "slug": "beyond-the-dice-2027",
+    "name": "Beyond the Dice Con 2027",
+    "start_date": "2027-02-27",
+    "end_date": "2027-02-28",
+    "date_note": null,
+    "city": "Potsdam",
+    "address": "WORKHUB 1, Konrad-Zuse-Ring 11, 14469 Potsdam",
+    "country": "DE",
+    "lat": 52.4,
+    "lon": 13.06,
+    "url": "https://beyondthedice.de/",
+    "description": "Zweitägige Fachkonferenz rund um Pen & Paper und Serious Games, die Forschung, Spieldesign und Praxis zusammenbringt – mit Vorträgen, Workshops, Spielrunden und Playtests.",
+    "tags": [
+      "Rollenspiel",
+      "Konferenz",
+      "Serious Games"
+    ],
+    "price": null,
+    "lodging": null,
+    "deadlines": [],
+    "status": "bestätigt",
+    "checked_at": "2026-11-19"
   }
 ]
