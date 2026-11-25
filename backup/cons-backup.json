@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T12:38:42.124Z",
+  "generated_at": "2026-11-25T14:27:16.283Z",
   "cons": [
     {
       "id": "d2ecc691-1faf-42fc-ab9a-93100c026b6a",
@@ -27,7 +27,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "7b32f34c-7806-43bb-8d94-f410d63e0771",
@@ -57,36 +57,7 @@
       "source": "repo",
       "checked_at": "2026-11-18",
       "created_at": "2026-11-18T20:13:55.439503+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
-    },
-    {
-      "id": "8fb6e078-e189-4131-9338-69fd03ba8b79",
-      "slug": "grossechsen-gewoelbe-ix-2026-11-21",
-      "name": "Großechsen & Gewölbe IX",
-      "start_date": "2026-11-21",
-      "end_date": "2026-11-21",
-      "date_note": null,
-      "city": "Wuppertal-Elberfeld",
-      "address": "Zentralbibliothek, Kolpingstraße 8, 42103 Wuppertal",
-      "country": "DE",
-      "lat": 51.2562,
-      "lon": 7.145,
-      "url": "https://www.wuppertal.de/microsite/stadtbibliothek/aktuell/meldungen/grossechsen-gewoelbe-pen-paper-termine.php",
-      "description": "14–18 Uhr · Pen-&-Paper-Nachmittag der Stadtbibliothek für Einsteiger und Fortgeschrittene ab 12 Jahren. Anmeldung per Mail an bib4teens@stadt.wuppertal.de.",
-      "tags": [
-        "Rollenspiel",
-        "Spieletreff",
-        "Bibliothek",
-        "Wuppertal"
-      ],
-      "price": "kostenlos",
-      "lodging": null,
-      "deadlines": [],
-      "status": "bestätigt",
-      "source": "repo",
-      "checked_at": "2026-11-18",
-      "created_at": "2026-11-18T20:13:55.439503+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "cea6434e-094e-467c-8024-49e0214ee3a9",
@@ -115,7 +86,36 @@
       "source": "repo",
       "checked_at": "2026-11-18",
       "created_at": "2026-11-18T20:13:55.439503+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
+    },
+    {
+      "id": "8fb6e078-e189-4131-9338-69fd03ba8b79",
+      "slug": "grossechsen-gewoelbe-ix-2026-11-21",
+      "name": "Großechsen & Gewölbe IX",
+      "start_date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "date_note": null,
+      "city": "Wuppertal-Elberfeld",
+      "address": "Zentralbibliothek, Kolpingstraße 8, 42103 Wuppertal",
+      "country": "DE",
+      "lat": 51.2562,
+      "lon": 7.145,
+      "url": "https://www.wuppertal.de/microsite/stadtbibliothek/aktuell/meldungen/grossechsen-gewoelbe-pen-paper-termine.php",
+      "description": "14–18 Uhr · Pen-&-Paper-Nachmittag der Stadtbibliothek für Einsteiger und Fortgeschrittene ab 12 Jahren. Anmeldung per Mail an bib4teens@stadt.wuppertal.de.",
+      "tags": [
+        "Rollenspiel",
+        "Spieletreff",
+        "Bibliothek",
+        "Wuppertal"
+      ],
+      "price": "kostenlos",
+      "lodging": null,
+      "deadlines": [],
+      "status": "bestätigt",
+      "source": "repo",
+      "checked_at": "2026-11-18",
+      "created_at": "2026-11-18T20:13:55.439503+00:00",
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "1df598d2-6cc0-483d-a3a5-0418dfce9922",
@@ -143,7 +143,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "afb24e2f-ad78-4a77-94fc-53aa7f31ae3d",
@@ -169,7 +169,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "b0197c93-2972-41a1-a932-eeda6ff670da",
@@ -196,7 +196,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "45dc5641-bd12-4dbd-99d3-5a19cb0187b6",
@@ -223,7 +223,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "743e3b69-11cb-41e5-9b49-cf766da10d04",
@@ -250,7 +250,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "b04fe7f3-d92f-463f-961a-53ad76a10cf7",
@@ -276,7 +276,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "c5789f17-9801-493a-89a2-94f268c2815f",
@@ -303,7 +303,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "f9997385-d8b9-4a7a-a10a-10d27613b9ba",
@@ -336,7 +336,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "e08392d0-2014-4761-9385-bc967d7c5d22",
@@ -364,7 +364,7 @@
       "source": "repo",
       "checked_at": "2026-11-19",
       "created_at": "2026-11-19T06:14:52.908032+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "11216b26-0de6-4355-a86a-7b2941b94d94",
@@ -393,7 +393,7 @@
       "source": "repo",
       "checked_at": "2026-11-18",
       "created_at": "2026-11-18T05:57:18.469872+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "4f8a7434-fc55-48a7-ae90-fe0f5a8e2a8f",
@@ -420,7 +420,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "778a5a06-25b6-4733-9a04-eacb62c0a9e2",
@@ -446,7 +446,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "77dd85b4-b0f0-4124-8e31-25876cdb9a77",
@@ -473,7 +473,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "2a656a78-b037-4651-b73e-bf97350990ba",
@@ -499,33 +499,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
-    },
-    {
-      "id": "789ff107-5fd0-41da-8670-7863d68f5013",
-      "slug": "prinz-brin-fruehjahr-2027",
-      "name": "Prinz Brin Konvent Frühjahr 2027",
-      "start_date": "2027-04-09",
-      "end_date": "2027-04-11",
-      "date_note": "laut Con-Verzeichnis we20",
-      "city": "Staufenberg (Hessen)",
-      "address": null,
-      "country": "DE",
-      "lat": 50.66,
-      "lon": 8.73,
-      "url": "https://www.we20.de/events",
-      "description": "Wochenend-Con mit Pen-&-Paper-Spielrunden.",
-      "tags": [
-        "Rollenspiel"
-      ],
-      "price": null,
-      "lodging": null,
-      "deadlines": [],
-      "status": "angekündigt",
-      "source": "repo",
-      "checked_at": "2026-11-16",
-      "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "cae896bd-3960-490e-a87a-f0871d5ffc13",
@@ -552,7 +526,33 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
+    },
+    {
+      "id": "789ff107-5fd0-41da-8670-7863d68f5013",
+      "slug": "prinz-brin-fruehjahr-2027",
+      "name": "Prinz Brin Konvent Frühjahr 2027",
+      "start_date": "2027-04-09",
+      "end_date": "2027-04-11",
+      "date_note": "laut Con-Verzeichnis we20",
+      "city": "Staufenberg (Hessen)",
+      "address": null,
+      "country": "DE",
+      "lat": 50.66,
+      "lon": 8.73,
+      "url": "https://www.we20.de/events",
+      "description": "Wochenend-Con mit Pen-&-Paper-Spielrunden.",
+      "tags": [
+        "Rollenspiel"
+      ],
+      "price": null,
+      "lodging": null,
+      "deadlines": [],
+      "status": "angekündigt",
+      "source": "repo",
+      "checked_at": "2026-11-16",
+      "created_at": "2026-11-16T21:11:09.767711+00:00",
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "b3de5b8a-3cab-4384-aca3-8836b57b092f",
@@ -579,7 +579,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "4a66a399-5971-477b-8333-21ab18d962f1",
@@ -605,7 +605,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "2d3649a5-fbdd-4aba-8f22-b9415bb446af",
@@ -632,7 +632,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "6db144fc-9238-4953-a14c-e19ca9bf00e7",
@@ -659,7 +659,35 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
+    },
+    {
+      "id": "9de7eef6-2917-417b-8b61-4c71c8475913",
+      "slug": "zeltcon-2027",
+      "name": "ZeltCON 2027",
+      "start_date": "2027-05-22",
+      "end_date": "2027-05-30",
+      "date_note": "laut Con-Verzeichnis we20",
+      "city": "Herbstein",
+      "address": null,
+      "country": "DE",
+      "lat": 50.56,
+      "lon": 9.35,
+      "url": "https://www.we20.de/events",
+      "description": "Über eine Woche laufende Pen-&-Paper-Con im Zeltlager-Format.",
+      "tags": [
+        "Rollenspiel",
+        "Übernachtung",
+        "Camping"
+      ],
+      "price": null,
+      "lodging": null,
+      "deadlines": [],
+      "status": "angekündigt",
+      "source": "repo",
+      "checked_at": "2026-11-16",
+      "created_at": "2026-11-16T21:11:09.767711+00:00",
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "eda6cb92-30e3-4f59-9d12-527c0819d337",
@@ -688,35 +716,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
-    },
-    {
-      "id": "9de7eef6-2917-417b-8b61-4c71c8475913",
-      "slug": "zeltcon-2027",
-      "name": "ZeltCON 2027",
-      "start_date": "2027-05-22",
-      "end_date": "2027-05-30",
-      "date_note": "laut Con-Verzeichnis we20",
-      "city": "Herbstein",
-      "address": null,
-      "country": "DE",
-      "lat": 50.56,
-      "lon": 9.35,
-      "url": "https://www.we20.de/events",
-      "description": "Über eine Woche laufende Pen-&-Paper-Con im Zeltlager-Format.",
-      "tags": [
-        "Rollenspiel",
-        "Übernachtung",
-        "Camping"
-      ],
-      "price": null,
-      "lodging": null,
-      "deadlines": [],
-      "status": "angekündigt",
-      "source": "repo",
-      "checked_at": "2026-11-16",
-      "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "3f02fc71-984d-449d-a771-11b00b2c896d",
@@ -742,7 +742,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "1de67910-dfbd-4831-9cd1-374f99b6701d",
@@ -771,7 +771,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "554853e2-07f8-49a3-8dd9-7684b1d3b5d3",
@@ -798,7 +798,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "f100bc80-2b99-40d4-9af8-0b49e0aa8ac8",
@@ -825,7 +825,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "7563d286-57ea-467c-9cf2-ab48902de238",
@@ -851,7 +851,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "2c51de47-ebe4-4e20-9005-7e18b5eab293",
@@ -878,7 +878,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "670bf6bc-0713-4db4-a022-6ac9c0b34417",
@@ -904,7 +904,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "148199e4-67d7-4308-b401-c7ce10aaa919",
@@ -931,7 +931,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "ff0eca94-6724-4fd5-8830-c48b3520e70b",
@@ -960,7 +960,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "3680f193-325a-4012-9959-efce70fd4295",
@@ -988,7 +988,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "5b2acefc-005d-4da6-a2ac-4d2c09ee6cbb",
@@ -1016,7 +1016,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "654585e3-72fe-4b2b-b497-b79b12d623d1",
@@ -1044,7 +1044,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "750cab78-d78f-4d58-8008-f2279e30b459",
@@ -1072,7 +1072,7 @@
       "source": "repo",
       "checked_at": "2026-11-18",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "a4f47e82-f076-4121-b0ed-705c8a179e9d",
@@ -1098,7 +1098,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "3273e4fe-e07a-45ba-9089-ba072caf632b",
@@ -1124,7 +1124,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "e2ded376-7429-4de3-ae35-b971b64fb148",
@@ -1152,7 +1152,7 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "4aea3740-a663-4350-8247-3632f3ea1fde",
@@ -1179,7 +1179,297 @@
       "source": "repo",
       "checked_at": "2026-11-16",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
+    },
+    {
+      "id": "dad89b42-31dc-4b86-b048-92d3d2d1bda7",
+      "slug": "pelmke-rollenspielabend-naechster",
+      "name": "Der Rollenspielabend (Pelmke)",
+      "start_date": null,
+      "end_date": null,
+      "date_note": "nächster Termin offen – zuletzt 24.10.2026; im Pelmke-Programm bis Mai 2027 noch nicht angekündigt",
+      "city": "Hagen-Wehringhausen",
+      "address": "Kulturzentrum Pelmke, Pelmkestr. 14, 58089 Hagen",
+      "country": "DE",
+      "lat": 51.3537,
+      "lon": 7.452,
+      "url": "https://www.pelmke.de/veranstaltungen/",
+      "description": "Ab 17 Uhr · Bunter Spieleabend mit Pen & Paper, Brett- und Sammelkartenspielen – zum Reinschnuppern, Gruppen finden und Systeme testen; Spielleitungen melden sich unter rollenspielabend@web.de.",
+      "tags": [
+        "Rollenspiel",
+        "Spieletreff",
+        "Hagen",
+        "Brettspiel"
+      ],
+      "price": "3 € p. P.",
+      "lodging": null,
+      "deadlines": [],
+      "status": "angekündigt",
+      "source": "repo",
+      "checked_at": "2026-11-25",
+      "created_at": "2026-11-18T20:13:55.439503+00:00",
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
+    },
+    {
+      "id": "1923c337-103f-475e-8ce3-efd3d6e8e041",
+      "slug": "wintercon-osnabrueck-2027",
+      "name": "WinterCon Osnabrück",
+      "start_date": null,
+      "end_date": null,
+      "date_note": "Termin offen – im Rollenspiel-Kompass „Termin folgt“",
+      "city": "Osnabrück",
+      "address": null,
+      "country": "DE",
+      "lat": 52.28,
+      "lon": 8.05,
+      "url": "https://rollenspiel-kompass.de/conventions/",
+      "description": "Winter-Vereinscon des Rubicon e. V. mit Pen & Paper und Brettspielen.",
+      "tags": [
+        "Rollenspiel",
+        "Brettspiel"
+      ],
+      "price": null,
+      "lodging": null,
+      "deadlines": [],
+      "status": "angekündigt",
+      "source": "repo",
+      "checked_at": "2026-11-25",
+      "created_at": "2026-11-16T21:11:09.767711+00:00",
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
+    },
+    {
+      "id": "bac9f9bd-c85e-4476-9471-e85fab9a5f28",
+      "slug": "kamin-con-2027",
+      "name": "Kamin-CON 2027",
+      "start_date": null,
+      "end_date": null,
+      "date_note": "Termin 2027 offen",
+      "city": "Münster",
+      "address": null,
+      "country": "DE",
+      "lat": 51.96,
+      "lon": 7.63,
+      "url": "https://rollenspiel-kompass.de/conventions/",
+      "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
+      "tags": [
+        "Rollenspiel"
+      ],
+      "price": null,
+      "lodging": null,
+      "deadlines": [],
+      "status": "angekündigt",
+      "source": "repo",
+      "checked_at": "2026-11-20",
+      "created_at": "2026-11-16T21:11:09.767711+00:00",
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
+    },
+    {
+      "id": "99f62569-1648-4670-9070-c5de5586f2be",
+      "slug": "niederrheincon-2027",
+      "name": "NiederrheinCon 2027",
+      "start_date": null,
+      "end_date": null,
+      "date_note": "Termin 2027 offen",
+      "city": "Wesel (Friedrichsfeld)",
+      "address": null,
+      "country": "DE",
+      "lat": 51.62,
+      "lon": 6.66,
+      "url": "https://rollenspiel-kompass.de/conventions/",
+      "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
+      "tags": [
+        "Rollenspiel"
+      ],
+      "price": null,
+      "lodging": null,
+      "deadlines": [],
+      "status": "angekündigt",
+      "source": "repo",
+      "checked_at": "2026-11-20",
+      "created_at": "2026-11-16T21:11:09.767711+00:00",
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
+    },
+    {
+      "id": "afd0e864-9fc2-45cd-a091-490bfd7254f9",
+      "slug": "octocon-rheine-2027",
+      "name": "OctoCon Rheine 2027",
+      "start_date": null,
+      "end_date": null,
+      "date_note": "Termin 2027 offen",
+      "city": "Rheine",
+      "address": null,
+      "country": "DE",
+      "lat": 52.28,
+      "lon": 7.44,
+      "url": "https://rollenspiel-kompass.de/conventions/",
+      "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
+      "tags": [
+        "Rollenspiel"
+      ],
+      "price": null,
+      "lodging": null,
+      "deadlines": [],
+      "status": "angekündigt",
+      "source": "repo",
+      "checked_at": "2026-11-21",
+      "created_at": "2026-11-16T21:11:09.767711+00:00",
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
+    },
+    {
+      "id": "e6538c77-86dd-4828-af67-5f85122f0c82",
+      "slug": "sagacon-osnabrueck-2027",
+      "name": "SagaCon Osnabrück 2027",
+      "start_date": null,
+      "end_date": null,
+      "date_note": "Termin 2027 offen",
+      "city": "Osnabrück",
+      "address": null,
+      "country": "DE",
+      "lat": 52.28,
+      "lon": 8.05,
+      "url": "https://rollenspiel-kompass.de/conventions/",
+      "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
+      "tags": [
+        "Rollenspiel"
+      ],
+      "price": null,
+      "lodging": null,
+      "deadlines": [],
+      "status": "angekündigt",
+      "source": "repo",
+      "checked_at": "2026-11-21",
+      "created_at": "2026-11-16T21:11:09.767711+00:00",
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
+    },
+    {
+      "id": "70231a6e-8f18-4c97-97d3-8410f646f781",
+      "slug": "sommercon-osnabrueck-2027",
+      "name": "SommerCon Osnabrück 2027",
+      "start_date": null,
+      "end_date": null,
+      "date_note": "Termin 2027 offen",
+      "city": "Osnabrück",
+      "address": null,
+      "country": "DE",
+      "lat": 52.28,
+      "lon": 8.05,
+      "url": "https://rollenspiel-kompass.de/conventions/",
+      "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
+      "tags": [
+        "Rollenspiel"
+      ],
+      "price": null,
+      "lodging": null,
+      "deadlines": [],
+      "status": "angekündigt",
+      "source": "repo",
+      "checked_at": "2026-11-21",
+      "created_at": "2026-11-16T21:11:09.767711+00:00",
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
+    },
+    {
+      "id": "00f7e2a6-a3a2-453e-9c17-bc826b818f11",
+      "slug": "keks-con-hannover-2027",
+      "name": "KeksCon Hannover 2027",
+      "start_date": null,
+      "end_date": null,
+      "date_note": "Termin 2027 offen",
+      "city": "Hannover",
+      "address": null,
+      "country": "DE",
+      "lat": 52.37,
+      "lon": 9.73,
+      "url": "https://rollenspiel-kompass.de/conventions/",
+      "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
+      "tags": [
+        "Rollenspiel"
+      ],
+      "price": null,
+      "lodging": null,
+      "deadlines": [],
+      "status": "angekündigt",
+      "source": "repo",
+      "checked_at": "2026-11-20",
+      "created_at": "2026-11-16T21:11:09.767711+00:00",
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
+    },
+    {
+      "id": "efe71d00-6d04-4e00-a784-d73a8026643f",
+      "slug": "council-of-dragons-2027",
+      "name": "Council of Dragons 2027",
+      "start_date": null,
+      "end_date": null,
+      "date_note": "Termin 2027 offen – 2026 am 11.–13. September",
+      "city": "Göttingen",
+      "address": null,
+      "country": "DE",
+      "lat": 51.54,
+      "lon": 9.93,
+      "url": "https://rollenspiel-kompass.de/conventions/",
+      "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
+      "tags": [
+        "Rollenspiel"
+      ],
+      "price": null,
+      "lodging": null,
+      "deadlines": [],
+      "status": "angekündigt",
+      "source": "repo",
+      "checked_at": "2026-11-20",
+      "created_at": "2026-11-16T21:11:09.767711+00:00",
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
+    },
+    {
+      "id": "aa512575-d646-4014-b0e4-21dc0303b893",
+      "slug": "aschentage-2027",
+      "name": "Aschentage 2027",
+      "start_date": null,
+      "end_date": null,
+      "date_note": "Termin 2027 offen – zuletzt Ende Oktober/Anfang November",
+      "city": "Ludwigshafen am Rhein",
+      "address": null,
+      "country": "DE",
+      "lat": 49.48,
+      "lon": 8.44,
+      "url": "https://rollenspiel-kompass.de/conventions/",
+      "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
+      "tags": [
+        "Rollenspiel"
+      ],
+      "price": null,
+      "lodging": null,
+      "deadlines": [],
+      "status": "angekündigt",
+      "source": "repo",
+      "checked_at": "2026-11-21",
+      "created_at": "2026-11-16T21:11:09.767711+00:00",
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
+    },
+    {
+      "id": "558e4ca6-9450-4840-9f40-494f54c72478",
+      "slug": "adventurecon-hamburg-2027",
+      "name": "AdventureCon Hamburg 2027",
+      "start_date": null,
+      "end_date": null,
+      "date_note": "Termin 2027 offen – üblicherweise Februar (zuletzt 13.–15.02.2026)",
+      "city": "Hamburg",
+      "address": "Kulturhaus Eidelstedt, Hamburg",
+      "country": "DE",
+      "lat": 53.56,
+      "lon": 9.98,
+      "url": "https://rollenspiel-kompass.de/conventions/",
+      "description": "Kleine Pen-&-Paper-Con des SDNV e.V. über ein Wochenende; Runden werden über Discord ausgeschrieben.",
+      "tags": [
+        "Rollenspiel"
+      ],
+      "price": "5 € Tag / 10 € Wochenende (2026)",
+      "lodging": null,
+      "deadlines": [],
+      "status": "angekündigt",
+      "source": "repo",
+      "checked_at": "2026-11-22",
+      "created_at": "2026-11-16T21:11:09.767711+00:00",
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "c612439a-d88d-4777-a5cf-731a775b31d0",
@@ -1205,7 +1495,7 @@
       "source": "repo",
       "checked_at": "2026-11-20",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "aaeb803a-0782-4129-a5b8-ad00dc7005ab",
@@ -1232,7 +1522,7 @@
       "source": "repo",
       "checked_at": "2026-11-22",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "d392b30f-fd4f-4726-b5c5-23d0da1886e8",
@@ -1259,7 +1549,7 @@
       "source": "repo",
       "checked_at": "2026-11-22",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "8c47f475-5667-4331-94b8-43904e99ad42",
@@ -1283,9 +1573,9 @@
       "deadlines": [],
       "status": "angekündigt",
       "source": "repo",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "d0f46c71-c78c-4ebc-af9a-b766bf85c0d7",
@@ -1313,7 +1603,7 @@
       "source": "repo",
       "checked_at": "2026-11-22",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "b8a9687d-8156-4d07-aa3c-2d4af18af3be",
@@ -1338,9 +1628,9 @@
       "deadlines": [],
       "status": "angekündigt",
       "source": "repo",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-24",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "f22db8a0-7382-4f17-ac78-12f00ee0c92a",
@@ -1364,9 +1654,9 @@
       "deadlines": [],
       "status": "angekündigt",
       "source": "repo",
-      "checked_at": "2026-11-16",
+      "checked_at": "2026-11-24",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "385dac5f-6f68-4be7-a8c3-25aa72be93a3",
@@ -1390,9 +1680,9 @@
       "deadlines": [],
       "status": "angekündigt",
       "source": "repo",
-      "checked_at": "2026-11-16",
+      "checked_at": "2026-11-24",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "28496f97-1e7b-4d50-945a-4031888b9d04",
@@ -1416,9 +1706,9 @@
       "deadlines": [],
       "status": "angekündigt",
       "source": "repo",
-      "checked_at": "2026-11-16",
+      "checked_at": "2026-11-24",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "5c397b9b-7975-4918-9284-140f01a1cf23",
@@ -1442,113 +1732,9 @@
       "deadlines": [],
       "status": "angekündigt",
       "source": "repo",
-      "checked_at": "2026-11-16",
+      "checked_at": "2026-11-24",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
-    },
-    {
-      "id": "e6538c77-86dd-4828-af67-5f85122f0c82",
-      "slug": "sagacon-osnabrueck-2027",
-      "name": "SagaCon Osnabrück 2027",
-      "start_date": null,
-      "end_date": null,
-      "date_note": "Termin 2027 offen",
-      "city": "Osnabrück",
-      "address": null,
-      "country": "DE",
-      "lat": 52.28,
-      "lon": 8.05,
-      "url": "https://rollenspiel-kompass.de/conventions/",
-      "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
-      "tags": [
-        "Rollenspiel"
-      ],
-      "price": null,
-      "lodging": null,
-      "deadlines": [],
-      "status": "angekündigt",
-      "source": "repo",
-      "checked_at": "2026-11-21",
-      "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
-    },
-    {
-      "id": "afd0e864-9fc2-45cd-a091-490bfd7254f9",
-      "slug": "octocon-rheine-2027",
-      "name": "OctoCon Rheine 2027",
-      "start_date": null,
-      "end_date": null,
-      "date_note": "Termin 2027 offen",
-      "city": "Rheine",
-      "address": null,
-      "country": "DE",
-      "lat": 52.28,
-      "lon": 7.44,
-      "url": "https://rollenspiel-kompass.de/conventions/",
-      "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
-      "tags": [
-        "Rollenspiel"
-      ],
-      "price": null,
-      "lodging": null,
-      "deadlines": [],
-      "status": "angekündigt",
-      "source": "repo",
-      "checked_at": "2026-11-21",
-      "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
-    },
-    {
-      "id": "99f62569-1648-4670-9070-c5de5586f2be",
-      "slug": "niederrheincon-2027",
-      "name": "NiederrheinCon 2027",
-      "start_date": null,
-      "end_date": null,
-      "date_note": "Termin 2027 offen",
-      "city": "Wesel (Friedrichsfeld)",
-      "address": null,
-      "country": "DE",
-      "lat": 51.62,
-      "lon": 6.66,
-      "url": "https://rollenspiel-kompass.de/conventions/",
-      "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
-      "tags": [
-        "Rollenspiel"
-      ],
-      "price": null,
-      "lodging": null,
-      "deadlines": [],
-      "status": "angekündigt",
-      "source": "repo",
-      "checked_at": "2026-11-20",
-      "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
-    },
-    {
-      "id": "bac9f9bd-c85e-4476-9471-e85fab9a5f28",
-      "slug": "kamin-con-2027",
-      "name": "Kamin-CON 2027",
-      "start_date": null,
-      "end_date": null,
-      "date_note": "Termin 2027 offen",
-      "city": "Münster",
-      "address": null,
-      "country": "DE",
-      "lat": 51.96,
-      "lon": 7.63,
-      "url": "https://rollenspiel-kompass.de/conventions/",
-      "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
-      "tags": [
-        "Rollenspiel"
-      ],
-      "price": null,
-      "lodging": null,
-      "deadlines": [],
-      "status": "angekündigt",
-      "source": "repo",
-      "checked_at": "2026-11-20",
-      "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "fb927f80-ff4a-41bc-a55a-d48ff3591c0a",
@@ -1574,7 +1760,7 @@
       "source": "repo",
       "checked_at": "2026-11-21",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "400f099f-f31c-4bbf-9dda-e14bf3f68b8a",
@@ -1598,36 +1784,35 @@
       "deadlines": [],
       "status": "angekündigt",
       "source": "repo",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
-      "id": "1923c337-103f-475e-8ce3-efd3d6e8e041",
-      "slug": "wintercon-osnabrueck-2027",
-      "name": "WinterCon Osnabrück",
+      "id": "605cb254-ceae-4546-8c3f-1d29cdb03792",
+      "slug": "polaris-hamburg-2027",
+      "name": "Polaris Hamburg 2027",
       "start_date": null,
       "end_date": null,
-      "date_note": "Termin unklar – Verzeichnisse nennen Nov 2026 bzw. Feb 2027",
-      "city": "Osnabrück",
-      "address": null,
+      "date_note": "Termin 2027 offen – üblicherweise Oktober (zuletzt 09.–11.10.2026)",
+      "city": "Hamburg",
+      "address": "Hamburg Messe",
       "country": "DE",
-      "lat": 52.28,
-      "lon": 8.05,
+      "lat": 53.56,
+      "lon": 9.98,
       "url": "https://rollenspiel-kompass.de/conventions/",
-      "description": "Winter-Vereinscon des Rubicon e. V. mit Pen & Paper und Brettspielen.",
+      "description": "Große Fantasy- und Spiele-Messe in Hamburg mit Pen-&-Paper-Bereich.",
       "tags": [
-        "Rollenspiel",
-        "Brettspiel"
+        "Rollenspiel"
       ],
       "price": null,
       "lodging": null,
       "deadlines": [],
       "status": "angekündigt",
       "source": "repo",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-22",
       "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     },
     {
       "id": "68ad70a7-dbca-47d6-864d-7656900b2575",
@@ -1656,192 +1841,7 @@
       "source": "repo",
       "checked_at": "2026-11-18",
       "created_at": "2026-11-18T20:13:55.439503+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
-    },
-    {
-      "id": "558e4ca6-9450-4840-9f40-494f54c72478",
-      "slug": "adventurecon-hamburg-2027",
-      "name": "AdventureCon Hamburg 2027",
-      "start_date": null,
-      "end_date": null,
-      "date_note": "Termin 2027 offen – üblicherweise Februar (zuletzt 13.–15.02.2026)",
-      "city": "Hamburg",
-      "address": "Kulturhaus Eidelstedt, Hamburg",
-      "country": "DE",
-      "lat": 53.56,
-      "lon": 9.98,
-      "url": "https://rollenspiel-kompass.de/conventions/",
-      "description": "Kleine Pen-&-Paper-Con des SDNV e.V. über ein Wochenende; Runden werden über Discord ausgeschrieben.",
-      "tags": [
-        "Rollenspiel"
-      ],
-      "price": "5 € Tag / 10 € Wochenende (2026)",
-      "lodging": null,
-      "deadlines": [],
-      "status": "angekündigt",
-      "source": "repo",
-      "checked_at": "2026-11-22",
-      "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
-    },
-    {
-      "id": "dad89b42-31dc-4b86-b048-92d3d2d1bda7",
-      "slug": "pelmke-rollenspielabend-naechster",
-      "name": "Der Rollenspielabend (Pelmke)",
-      "start_date": null,
-      "end_date": null,
-      "date_note": "nächster Termin offen – zuletzt 24.10.2026; im Pelmke-Programm bis Mai 2027 noch nicht angekündigt",
-      "city": "Hagen-Wehringhausen",
-      "address": "Kulturzentrum Pelmke, Pelmkestr. 14, 58089 Hagen",
-      "country": "DE",
-      "lat": 51.3537,
-      "lon": 7.452,
-      "url": "https://www.pelmke.de/veranstaltungen/",
-      "description": "Ab 17 Uhr · Bunter Spieleabend mit Pen & Paper, Brett- und Sammelkartenspielen – zum Reinschnuppern, Gruppen finden und Systeme testen; Spielleitungen melden sich unter rollenspielabend@web.de.",
-      "tags": [
-        "Rollenspiel",
-        "Spieletreff",
-        "Hagen",
-        "Brettspiel"
-      ],
-      "price": "3 € p. P.",
-      "lodging": null,
-      "deadlines": [],
-      "status": "angekündigt",
-      "source": "repo",
-      "checked_at": "2026-11-18",
-      "created_at": "2026-11-18T20:13:55.439503+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
-    },
-    {
-      "id": "605cb254-ceae-4546-8c3f-1d29cdb03792",
-      "slug": "polaris-hamburg-2027",
-      "name": "Polaris Hamburg 2027",
-      "start_date": null,
-      "end_date": null,
-      "date_note": "Termin 2027 offen – üblicherweise Oktober (zuletzt 09.–11.10.2026)",
-      "city": "Hamburg",
-      "address": "Hamburg Messe",
-      "country": "DE",
-      "lat": 53.56,
-      "lon": 9.98,
-      "url": "https://rollenspiel-kompass.de/conventions/",
-      "description": "Große Fantasy- und Spiele-Messe in Hamburg mit Pen-&-Paper-Bereich.",
-      "tags": [
-        "Rollenspiel"
-      ],
-      "price": null,
-      "lodging": null,
-      "deadlines": [],
-      "status": "angekündigt",
-      "source": "repo",
-      "checked_at": "2026-11-22",
-      "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
-    },
-    {
-      "id": "efe71d00-6d04-4e00-a784-d73a8026643f",
-      "slug": "council-of-dragons-2027",
-      "name": "Council of Dragons 2027",
-      "start_date": null,
-      "end_date": null,
-      "date_note": "Termin 2027 offen – 2026 am 11.–13. September",
-      "city": "Göttingen",
-      "address": null,
-      "country": "DE",
-      "lat": 51.54,
-      "lon": 9.93,
-      "url": "https://rollenspiel-kompass.de/conventions/",
-      "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
-      "tags": [
-        "Rollenspiel"
-      ],
-      "price": null,
-      "lodging": null,
-      "deadlines": [],
-      "status": "angekündigt",
-      "source": "repo",
-      "checked_at": "2026-11-20",
-      "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
-    },
-    {
-      "id": "00f7e2a6-a3a2-453e-9c17-bc826b818f11",
-      "slug": "keks-con-hannover-2027",
-      "name": "KeksCon Hannover 2027",
-      "start_date": null,
-      "end_date": null,
-      "date_note": "Termin 2027 offen",
-      "city": "Hannover",
-      "address": null,
-      "country": "DE",
-      "lat": 52.37,
-      "lon": 9.73,
-      "url": "https://rollenspiel-kompass.de/conventions/",
-      "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
-      "tags": [
-        "Rollenspiel"
-      ],
-      "price": null,
-      "lodging": null,
-      "deadlines": [],
-      "status": "angekündigt",
-      "source": "repo",
-      "checked_at": "2026-11-20",
-      "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
-    },
-    {
-      "id": "aa512575-d646-4014-b0e4-21dc0303b893",
-      "slug": "aschentage-2027",
-      "name": "Aschentage 2027",
-      "start_date": null,
-      "end_date": null,
-      "date_note": "Termin 2027 offen – zuletzt Ende Oktober/Anfang November",
-      "city": "Ludwigshafen am Rhein",
-      "address": null,
-      "country": "DE",
-      "lat": 49.48,
-      "lon": 8.44,
-      "url": "https://rollenspiel-kompass.de/conventions/",
-      "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
-      "tags": [
-        "Rollenspiel"
-      ],
-      "price": null,
-      "lodging": null,
-      "deadlines": [],
-      "status": "angekündigt",
-      "source": "repo",
-      "checked_at": "2026-11-21",
-      "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
-    },
-    {
-      "id": "70231a6e-8f18-4c97-97d3-8410f646f781",
-      "slug": "sommercon-osnabrueck-2027",
-      "name": "SommerCon Osnabrück 2027",
-      "start_date": null,
-      "end_date": null,
-      "date_note": "Termin 2027 offen",
-      "city": "Osnabrück",
-      "address": null,
-      "country": "DE",
-      "lat": 52.28,
-      "lon": 8.05,
-      "url": "https://rollenspiel-kompass.de/conventions/",
-      "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
-      "tags": [
-        "Rollenspiel"
-      ],
-      "price": null,
-      "lodging": null,
-      "deadlines": [],
-      "status": "angekündigt",
-      "source": "repo",
-      "checked_at": "2026-11-21",
-      "created_at": "2026-11-16T21:11:09.767711+00:00",
-      "updated_at": "2026-11-22T08:12:27.929795+00:00"
+      "updated_at": "2026-11-25T06:03:31.738381+00:00"
     }
   ]
 }
