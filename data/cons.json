@@ -325,7 +325,7 @@
     "name": "WinterCon Osnabrück",
     "start_date": null,
     "end_date": null,
-    "date_note": "Termin unklar – Verzeichnisse nennen Nov 2026 bzw. Feb 2027",
+    "date_note": "Termin offen – im Rollenspiel-Kompass „Termin folgt“",
     "city": "Osnabrück",
     "address": null,
     "country": "DE",
@@ -341,7 +341,7 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-18"
+    "checked_at": "2026-11-25"
   },
   {
     "slug": "heinzcon-2027",
@@ -1020,7 +1020,7 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-18"
+    "checked_at": "2026-11-25"
   },
   {
     "slug": "aschentage-2027",
@@ -1205,7 +1205,7 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-18"
+    "checked_at": "2026-11-25"
   },
   {
     "slug": "klostercon-2027",
@@ -1501,7 +1501,7 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-18",
+    "checked_at": "2026-11-25",
     "slug": "pelmke-rollenspielabend-naechster",
     "name": "Der Rollenspielabend (Pelmke)",
     "start_date": null,
