@@ -829,14 +829,14 @@
     "name": "Kamin-CON 2027",
     "start_date": null,
     "end_date": null,
-    "date_note": "Termin 2027 offen",
+    "date_note": "Termin 2027 offen – zuletzt 07.–08.11.2026",
     "city": "Münster",
-    "address": null,
+    "address": "Hof Hesselmann, Münster-Mecklenbeck",
     "country": "DE",
     "lat": 51.96,
     "lon": 7.63,
     "url": "https://rollenspiel-kompass.de/conventions/",
-    "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
+    "description": "Gemütliche Pen-&-Paper-Con auf einem Hof in Münster-Mecklenbeck mit begrenztem Ticketkontingent.",
     "tags": [
       "Rollenspiel"
     ],
@@ -844,21 +844,21 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-20"
+    "checked_at": "2026-11-26"
   },
   {
     "slug": "niederrheincon-2027",
     "name": "NiederrheinCon 2027",
-    "start_date": null,
-    "end_date": null,
-    "date_note": "Termin 2027 offen",
+    "start_date": "2027-05-22",
+    "end_date": "2027-05-23",
+    "date_note": "laut Con-Verzeichnis (Rollenspiel-Kompass, Übersicht) 22.–23.05.2027 – Con-Seite bestätigt noch nicht",
     "city": "Wesel (Friedrichsfeld)",
-    "address": null,
+    "address": "Veranstaltungsgelände BSV Friedrichsfeld, Wesel",
     "country": "DE",
     "lat": 51.62,
     "lon": 6.66,
     "url": "https://rollenspiel-kompass.de/conventions/",
-    "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
+    "description": "Pen-&-Paper-Con am Niederrhein mit freiem Eintritt; Runden werden spontan vor Ort gebildet.",
     "tags": [
       "Rollenspiel"
     ],
@@ -866,7 +866,7 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-20"
+    "checked_at": "2026-11-26"
   },
   {
     "slug": "octocon-rheine-2027",
@@ -937,24 +937,24 @@
   {
     "slug": "keks-con-hannover-2027",
     "name": "KeksCon Hannover 2027",
-    "start_date": null,
-    "end_date": null,
-    "date_note": "Termin 2027 offen",
+    "start_date": "2027-03-20",
+    "end_date": "2027-03-21",
+    "date_note": "laut Con-Verzeichnis (Rollenspiel-Kompass) 20.–21.03.2027 – Con-Seite bestätigt noch nicht",
     "city": "Hannover",
-    "address": null,
+    "address": "Kulturtreff Hainholz, Hannover",
     "country": "DE",
     "lat": 52.37,
     "lon": 9.73,
     "url": "https://rollenspiel-kompass.de/conventions/",
-    "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
+    "description": "Kleine Wochenend-Con für Pen & Paper in Hannover-Hainholz; ohne Rundenvoranmeldung, keine Übernachtung.",
     "tags": [
       "Rollenspiel"
     ],
-    "price": null,
+    "price": "Tagesticket 5 € (Stand 2026)",
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-20"
+    "checked_at": "2026-11-26"
   },
   {
     "slug": "council-of-dragons-2027",
@@ -963,12 +963,12 @@
     "end_date": null,
     "date_note": "Termin 2027 offen – 2026 am 11.–13. September",
     "city": "Göttingen",
-    "address": null,
+    "address": "Georg-Christoph-Lichtenberg-Gesamtschule, Göttingen",
     "country": "DE",
     "lat": 51.54,
     "lon": 9.93,
     "url": "https://rollenspiel-kompass.de/conventions/",
-    "description": "Kleinere Pen-&-Paper-Con; Details folgen.",
+    "description": "Wochenend-Rollenspielcon in Göttingen mit Voranmeldung für Spielrunden und Schlafhalle.",
     "tags": [
       "Rollenspiel"
     ],
@@ -976,7 +976,7 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-20"
+    "checked_at": "2026-11-26"
   },
   {
     "slug": "hamstercon-2027",
@@ -1137,7 +1137,7 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-20"
+    "checked_at": "2026-11-26"
   },
   {
     "slug": "traumcon-2027",
