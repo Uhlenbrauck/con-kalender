@@ -27,5 +27,16 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A snapshots/
-          git diff --cached --quiet || (git commit -m "Quellen-Snapshots $(date -u +%F)" && git pull --rebase && git push)
+          # Snapshots beiseitelegen und auf den neuesten Stand von main setzen –
+          # so gibt es keine Konflikte, falls zwischendurch jemand gepusht hat.
+          mv snapshots "$RUNNER_TEMP/snapshots"
+          for i in 1 2 3; do
+            git fetch -q origin main && git checkout -q -B main origin/main
+            rm -rf snapshots && cp -r "$RUNNER_TEMP/snapshots" snapshots
+            git add -A snapshots/
+            if git diff --cached --quiet; then echo "Keine Änderungen"; exit 0; fi
+            git commit -q -m "Quellen-Snapshots $(date -u +%F)"
+            git push -q origin main && exit 0
+            sleep 5
+          done
+          exit 1
