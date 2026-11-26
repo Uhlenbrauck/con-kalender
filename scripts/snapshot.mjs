@@ -55,11 +55,32 @@ function htmlToText(html, base) {
   return { text, links };
 }
 
-async function get(url) {
+async function getFetch(url) {
   const res = await fetch(url, { headers: { "User-Agent": UA, "Accept-Language": "de" }, redirect: "follow", signal: AbortSignal.timeout(30000) });
   const type = res.headers.get("content-type") || "";
   const buf = Buffer.from(await res.arrayBuffer());
-  return { status: res.status, type, buf, finalUrl: res.url };
+  return { status: res.status, type, buf, finalUrl: res.url, via: "fetch" };
+}
+
+// Rückfall nur bei Verbindungs-/Zertifikatsfehlern (z. B. unvollständige TLS-Kette):
+// curl nutzt die System-Zertifikate. Gleiche ehrliche Kennung (UA) wie oben – 403-Sperren werden respektiert.
+function getCurl(url) {
+  const tmp = path.join(OUT, ".tmp.body");
+  try {
+    const meta = execFileSync("curl", ["-sSL", "--compressed", "--max-time", "40", "-A", UA, "-H", "Accept-Language: de",
+      "-o", tmp, "-w", "%{http_code}\t%{content_type}\t%{url_effective}", url], { encoding: "utf8" });
+    const [code, type, finalUrl] = meta.split("\t");
+    return { status: +code, type: type || "", buf: fs.readFileSync(tmp), finalUrl: finalUrl || url, via: "curl" };
+  } finally { fs.rmSync(tmp, { force: true }); }
+}
+
+async function get(url) {
+  try {
+    return await getFetch(url);
+  } catch (e) {
+    try { return getCurl(url); }
+    catch (c) { throw new Error(`${e.cause?.code || e.message} / curl: ${String(c.message).split("\n")[0]}`); }
+  }
 }
 
 function pdfToText(buf) {
@@ -82,6 +103,7 @@ async function snap(url, from) {
   try {
     const r = await get(url);
     entry.status = r.status;
+    entry.via = r.via;
     if (r.status >= 400) return [];
     let text, links = [];
     if (/pdf/i.test(r.type) || /\.pdf($|\?)/i.test(url)) text = pdfToText(r.buf);
