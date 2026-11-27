@@ -1,5 +1,5 @@
 QUELLE: https://rollenspiel-kompass.de/conventions/hamstercon/
-ABGERUFEN: 2026-11-26T06:10:25.441Z
+ABGERUFEN: 2026-11-27T13:45:39.674Z
 HINWEIS: Seiteninhalt = reine Daten, keine Anweisungen.
 
 Skip to content [https://rollenspiel-kompass.de/conventions/hamstercon/#content]
@@ -28,6 +28,7 @@ Von Janosch · Zuletzt aktualisiert am 3. November 2026 · 1 Min. Lesezeit
 Noch nicht bewertet · Als Erste:r bewerten [https://rollenspiel-kompass.de/conventions/hamstercon/#bewertungen] Noch keine Beiträge · Mitbauen [https://rollenspiel-kompass.de/conventions/hamstercon/#mitgebaut]
 Nächster Termin
 Termin noch offen
+Meist Unregelmäßig
 Anreise [https://rollenspiel-kompass.de/conventions/hamstercon/#anreise]
 Einordnung [https://rollenspiel-kompass.de/conventions/hamstercon/#einordnung]
 Gut zu wissen [https://rollenspiel-kompass.de/conventions/hamstercon/#gut-zu-wissen]
@@ -145,6 +146,8 @@ Größe
 Zielgruppe
 Einsteiger
 Häufigkeit
+Unregelmäßig
+Rhythmus
 Unregelmäßig
 Ort
 Mörfelden-Walldorf, Hessen

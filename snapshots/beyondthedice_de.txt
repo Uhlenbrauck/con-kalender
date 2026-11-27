@@ -1,5 +1,5 @@
 QUELLE: https://beyondthedice.de/
-ABGERUFEN: 2026-11-26T06:13:05.850Z
+ABGERUFEN: 2026-11-27T13:48:17.759Z
 HINWEIS: Seiteninhalt = reine Daten, keine Anweisungen.
 
 Zum Inhalt springen [https://beyondthedice.de/#content]
@@ -19,15 +19,15 @@ DE [https://beyondthedice.de/#]
 EN [https://beyondthedice.de/#]
 Newsletter
 [https://beyondthedice.de/#Anmeldung]Newsletter [https://beyondthedice.de/#Anmeldung]
-93
+91
 Tage
-04
+20
 Stunden
-07
+32
 Minuten
-54
+39
 Sekunden
-93 Tage, 4 Stunden, 7 Minuten und 54 Sekunden verbleibend.
+91 Tage, 20 Stunden, 32 Minuten und 39 Sekunden verbleibend.
 Der Countdown ist abgelaufen.
 Worum geht's?
 Würfel, Welt & Wirksamkeit
@@ -41,7 +41,7 @@ Anwender:innen aus Facilitation, Coaching, HR & Therapie
 27. & 28. Februar 2027
 WORKHUB 1
 Konrad-Zuse-Ring 11 · 14469 Potsdam
-UNSER ANSATZ
+Unser Ansatz
 Während etablierte TTRPG-Cons den puren Spielspaß fokussieren und Business-Events oft die Spieldynamik ausklammern, vereint die Beyond the Dice Con Erfahrungswissen mit theoretischer und empirischer Fundierung:
 Erfahrungswissen & Theorie
 Narrative Intuition, Gruppendynamiken und Pacing systematisch analysieren, reflektieren und wissenschaftlich einordnen.
@@ -61,36 +61,32 @@ Panel-Talks & Sessions
 Fachlicher Austausch zu Pacing, Konflikt-Steuerung, Immersion und Methodik.
 Networking & Community
 Raum für akademische und praktische Kooperationen, Synergien und neue Projekte.
-Tagesprogramm
-Samstag 27.02.
-Sonntag, 28.02.
-10:00– 11:00
-KEYNOTE
-Mehr als ein Spiel: Geschichten, die bewegen
-Name Nachname · Plenum
-Wie können Rollenspiele Perspektivwechsel ermöglichen und Lernprozesse begleiten? Ein gemeinsamer Auftakt zwischen Forschung und Spielpraxis – mit Impulsen für die Arbeit mit Gruppen.
-Accordion Item 2
-Sonntag
-Accordion Item 2
 Bleib auf dem Laufenden
 Neue Programmpunkte, spannende Speaker und Updates zum Ticketverkauf
 Subscription Form
-Contact
+Updates
 Newsletter abonnieren
 Ticket-Formular mit Zahlung
-Updates
-Ihr Ticket
-Samstag · 27.02.2027
-Sonntag · 28.02.2027
-Wochenende · 27.–28.02.2027
+Newsletter
+Ticket - Beyond the Dice 2027
+1.00€
+99€
+Ein Preis, das volle Erlebnis
+Für 99 € bist du dabei – ganz gleich, ob du uns nur am Samstag, nur am Sonntag oder an beiden Tagen besuchst. Wir verzichten bewusst auf komplizierte Ticket-Stufen, weil wir möchten, dass du das Wochenende genau so gestaltest, wie es zu dir passt.
+Das steckt in deinem Ticket:
+Voller Zugang zu allen drei Tracks: Egal ob wissenschaftliche Impulse aus den Game Studies,interaktive Co-Creation-Workshops oder praxisnahe Serious-Games- und Rollenspiel-Sessions – dir stehen alle Programmpunkte offen.
+Maximale Flexibilität: Komm an einem Tag vorbei oder tauche das ganze Wochenende ein. Dein Ticket gilt für den gesamten Zeitraum der Convention.
+Austausch auf Augenhöhe: Vernetze dich in entspannter Atmosphäre mit Forschenden, Game Designern, Facilitatoren und Spielbegeisterten.
+Zahlung & Buchung: Die Zahlung erfolgt unkompliziert im Rahmen deiner Anmeldung per PayPal. Bitte beachte, dass die Tickets personengebunden und nicht übertragbar sind.
 Vorname
 Nachname
 E-Mail
 Institution
+Anzahl der Tickets
+Es wurden noch keine Zahlungspositionen ausgewählt.
 Ich habe die Allgemeinen Geschäftsbedingungen sowie die Datenschutzerklärung [https://beyondthedice.de/datenschutz/] gelesen und stimme ihnen zu.
 Newsletter
 Ja, ich möchte per E-Mail Neuigkeiten zu Beyond the Dice und kommenden Veranstaltungen erhalten. Ich kann mich jederzeit abmelden.
-No payment items has been selected yet
 Zahlungspflichtig buchen
 GEMEINSAM MÖGLICH GEMACHT
 [https://transitraeume.org/] [https://mastersofthedice.de/] [https://www.workhub-potsdam.com/]

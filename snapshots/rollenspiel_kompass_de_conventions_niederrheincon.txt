@@ -1,5 +1,5 @@
 QUELLE: https://rollenspiel-kompass.de/conventions/niederrheincon/
-ABGERUFEN: 2026-11-26T06:10:10.116Z
+ABGERUFEN: 2026-11-27T13:45:25.095Z
 HINWEIS: Seiteninhalt = reine Daten, keine Anweisungen.
 
 Skip to content [https://rollenspiel-kompass.de/conventions/niederrheincon/#content]
@@ -30,7 +30,7 @@ Nächster Termin
 22
 Mai
 22.–23. Mai 2027
-Sa–So · in 177 Tagen
+Sa–So · in 176 Tagen
 Angekündigt · Datum ohne Gewähr
 Ticket-Shop ↗ [https://niederrhein-con.de/eintrittskarten-nrc-limited-2025/]
 Anreise [https://rollenspiel-kompass.de/conventions/niederrheincon/#anreise]
@@ -52,6 +52,8 @@ Eintritt frei
 Übernachtung
 Camping / Zeltplatz
 Laut Veranstalter gibt es am Gelände einen Park mit Möglichkeit zum Zelten. Keine Halle zum Übernachten.
+Verpflegung
+Imbiss, Grill, Kiosk oder Automaten
 Programm
 Pen & Paper Runden
 Brettspiele
@@ -83,6 +85,9 @@ Impressionen
 Passend dazu
 Verlage vor Ort
 Uhrwerk Verlag [https://rollenspiel-kompass.de/verlage/uhrwerk/]
+Regelwerke
+7töter [https://rollenspiel-kompass.de/regelwerk/7toeter/]
+Mausritter [https://rollenspiel-kompass.de/regelwerk/mausritter/]
 Alle Regelwerke &rarr; [https://rollenspiel-kompass.de/regelwerke/]
 Bewertungen
 Noch nicht bewertet
@@ -164,6 +169,8 @@ Zielgruppe
 Familien
 Häufigkeit
 Jährlich
+Rhythmus
+Jährlich im Mai, Samstag und Sonntag
 Ort
 Wesel / Friedrichsfeld, Nordrhein-Westfalen
 Eintritt
@@ -172,6 +179,8 @@ Orga
 spontan vor Ort
 Übernachtung
 Camping
+Verpflegung
+Imbiss
 Aktualisiert
 15.01.2026
 Ticket-Shop [https://niederrhein-con.de/eintrittskarten-nrc-limited-2025/]

@@ -1,5 +1,5 @@
 QUELLE: https://rollenspiel-kompass.de/conventions/
-ABGERUFEN: 2026-11-26T06:10:01.564Z
+ABGERUFEN: 2026-11-27T13:45:15.880Z
 HINWEIS: Seiteninhalt = reine Daten, keine Anweisungen.
 
 Skip to content [https://rollenspiel-kompass.de/conventions/#content]
@@ -68,6 +68,7 @@ Mai 2027
 Juni 2027
 Juli 2027
 August 2027
+Oktober 2027
 November 2027
 Region
 Alle Bundesländer
@@ -103,7 +104,7 @@ Cosplay
 Tabletop / Miniaturen
 Zurücksetzen [https://rollenspiel-kompass.de/conventions/]
 Ergebnisse anzeigen
-26 Conventions · 13 mit Termin
+26 Conventions · 15 mit Termin
 Liste Liste + Karte
 Januar 2027 1 Convention
 9
@@ -118,7 +119,7 @@ Workshops
 Kleine, community-getriebene Pen-&-Paper-Convention mit Fokus auf Spielrunden und Austausch
 Baden-Württemberg
 Infos ergänzen & mitbauen [https://rollenspiel-kompass.de/mitmachen/]
-Februar 2027 1 Convention
+Februar 2027 2 Conventions
 6
 Feb.
 BavariaCon [https://rollenspiel-kompass.de/conventions/bavariacon/]
@@ -131,6 +132,16 @@ Workshops
 Zweitägige Rollenspiel-Convention bei München mit Pen-&-Paper-Runden, Brettspielen, Tabletop sowie Marktplatz mit Händler:innen und Künstler:innen.
 Bayern
 C Von euch mitgebaut · 1
+26
+Feb.
+AdventureCon Hamburg [https://rollenspiel-kompass.de/conventions/adventurecon-hamburg/]
+Hamburg · 26.–28. Februar 2027
+<200
+Pen & Paper
+Händler
+Rollenspiel-Convention des SDNV e.V. im Kulturhaus Eidelstedt, von Freitagabend bis Sonntagabend mit Pen-&-Paper-Runden im Mittelpunkt.
+Hamburg
+Infos ergänzen & mitbauen [https://rollenspiel-kompass.de/mitmachen/]
 März 2027 1 Convention
 20
 März
@@ -256,6 +267,19 @@ Workshops
 Fantasy-Festival und Rollenspiel-Convention auf Burg Linn in Krefeld mit Spielrunden, Lesungen, Cosplay, Händlern und frei zugänglichem Außengelände.
 Nordrhein-Westfalen
 Infos ergänzen & mitbauen [https://rollenspiel-kompass.de/mitmachen/]
+Oktober 2027 1 Convention
+8
+Okt.
+Polaris Hamburg [https://rollenspiel-kompass.de/conventions/polaris-hamburg/]
+Hamburg · 8.–10. Oktober 2027
+2000+
+Pen & Paper
+Workshops
+Vorträge
++5
+Hybrid-Convention aus Gaming, Creator-Programm und Tabletop mit starkem Community-Fokus
+Hamburg
+Infos ergänzen & mitbauen [https://rollenspiel-kompass.de/mitmachen/]
 November 2027 1 Convention
 13
 Nov.
@@ -270,22 +294,22 @@ Workshops
 Deutschlands größte Pen-&-Paper-Rollenspiel-Convention im deutschsprachigen Raum, ehrenamtlich organisiert und seit 1995 in Dreieich bei Frankfurt verankert.
 Hessen
 Infos ergänzen & mitbauen [https://rollenspiel-kompass.de/mitmachen/]
-Termin folgt 13 Conventions
+Termin folgt 11 Conventions
 Kennst du den nächsten Termin? Trag ihn ein [https://rollenspiel-kompass.de/mitmachen/] und hilf allen bei der Planung.
-AdventureCon Hamburg Hamburg Mitbauen [https://rollenspiel-kompass.de/conventions/adventurecon-hamburg/] Aschentage Ludwigshafen am Rhein Mitbauen [https://rollenspiel-kompass.de/conventions/aschentage/] Council of Dragons Göttingen Mitbauen [https://rollenspiel-kompass.de/conventions/council-of-dragons/] FeenCon Bonn (Bad Godesberg) Mitbauen [https://rollenspiel-kompass.de/conventions/feencon/] HamsterCon Mörfelden-Walldorf Mitbauen [https://rollenspiel-kompass.de/conventions/hamstercon/] Kamin-CON Münster Mitbauen [https://rollenspiel-kompass.de/conventions/kamin-con/] OctoCon Rheine Rheine Mitbauen [https://rollenspiel-kompass.de/conventions/octocon-rheine/] Pen & Paper Con Karben Karben Mitbauen [https://rollenspiel-kompass.de/conventions/pen-paper-con-karben/] Polaris Hamburg Hamburg Mitbauen [https://rollenspiel-kompass.de/conventions/polaris-hamburg/] SagaCon Osnabrück Osnabrück Mitbauen [https://rollenspiel-kompass.de/conventions/sagacon-osnabrueck/] SommerCon Osnabrück Osnabrück Mitbauen [https://rollenspiel-kompass.de/conventions/sommercon-osnabrueck/] Vienna Fantasy Gaming & Roleplay Convention Wien Mitbauen [https://rollenspiel-kompass.de/conventions/vienna-fantasy-gaming-roleplay-convention/] WinterCon Osnabrück Osnabrück Mitbauen [https://rollenspiel-kompass.de/conventions/wintercon-osnabrueck/]
+Aschentage Ludwigshafen am Rhein Mitbauen [https://rollenspiel-kompass.de/conventions/aschentage/] Council of Dragons Göttingen Mitbauen [https://rollenspiel-kompass.de/conventions/council-of-dragons/] FeenCon Bonn (Bad Godesberg) Mitbauen [https://rollenspiel-kompass.de/conventions/feencon/] HamsterCon Mörfelden-Walldorf Mitbauen [https://rollenspiel-kompass.de/conventions/hamstercon/] Kamin-CON Münster Mitbauen [https://rollenspiel-kompass.de/conventions/kamin-con/] OctoCon Rheine Rheine Mitbauen [https://rollenspiel-kompass.de/conventions/octocon-rheine/] Pen & Paper Con Karben Karben Mitbauen [https://rollenspiel-kompass.de/conventions/pen-paper-con-karben/] SagaCon Osnabrück Osnabrück Mitbauen [https://rollenspiel-kompass.de/conventions/sagacon-osnabrueck/] SommerCon Osnabrück Osnabrück Mitbauen [https://rollenspiel-kompass.de/conventions/sommercon-osnabrueck/] Vienna Fantasy Gaming & Roleplay Convention Wien Mitbauen [https://rollenspiel-kompass.de/conventions/vienna-fantasy-gaming-roleplay-convention/] WinterCon Osnabrück Osnabrück Mitbauen [https://rollenspiel-kompass.de/conventions/wintercon-osnabrueck/]
 Fragen & Antworten
-Gibt es auch Conventions für Einsteiger?
-[https://rollenspiel-kompass.de/conventions/#collapse-1-1001965]
-Ja. Viele Veranstaltungen bieten offene Spielrunden und unterstützen Besucher ohne Vorkenntnisse.
+Was kostet eine Pen-&-Paper-Convention?
+[https://rollenspiel-kompass.de/conventions/#collapse-1-1001967]
+Das hängt vom Veranstalter ab. Neben kostenlosen Vereinstreffen gibt es auch mehrtägige Veranstaltungen mit Eintritt.
 Wie finde ich neue Conventions in diesem Bundesland?
 [https://rollenspiel-kompass.de/conventions/#collapse-1-1001969]
 Diese Übersichtsseite wird regelmäßig erweitert. Ein Blick lohnt sich daher auch vor der nächsten Rollenspiel-Saison.
 Wann finden Pen-&-Paper-Conventions in diesem Bundesland statt?
 [https://rollenspiel-kompass.de/conventions/#collapse-1-1001963]
 Die meisten Veranstaltungen verteilen sich über das gesamte Jahr. Viele größere Conventions finden an Wochenenden statt.
-Was kostet eine Pen-&-Paper-Convention?
-[https://rollenspiel-kompass.de/conventions/#collapse-1-1001967]
-Das hängt vom Veranstalter ab. Neben kostenlosen Vereinstreffen gibt es auch mehrtägige Veranstaltungen mit Eintritt.
+Gibt es auch Conventions für Einsteiger?
+[https://rollenspiel-kompass.de/conventions/#collapse-1-1001965]
+Ja. Viele Veranstaltungen bieten offene Spielrunden und unterstützen Besucher ohne Vorkenntnisse.
 Mitmachen
 Mitmachen beim Rollenspiel-Kompass
 Rollenspiel-Kompass ist ein redaktionell gepflegtes Wiki rund um Pen-&-Paper-Rollenspiele: Regelwerke, Schnellstarter, Conventions und Verlage – strukturiert erfasst, eingeordnet und verständlich aufbereitet. Kein fertiges Produkt, sondern ein wachsendes Projekt, das von Menschen lebt, die das Hobby kennen und mögen.

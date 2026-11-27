@@ -1,5 +1,5 @@
 QUELLE: https://rollenspiel-kompass.de/conventions/feencon/
-ABGERUFEN: 2026-11-26T06:10:24.151Z
+ABGERUFEN: 2026-11-27T13:45:38.450Z
 HINWEIS: Seiteninhalt = reine Daten, keine Anweisungen.
 
 Skip to content [https://rollenspiel-kompass.de/conventions/feencon/#content]
@@ -28,6 +28,7 @@ Von Janosch · Zuletzt aktualisiert am 14. August 2026 · 1 Min. Lesezeit
 Noch nicht bewertet · Als Erste:r bewerten [https://rollenspiel-kompass.de/conventions/feencon/#bewertungen] Noch keine Beiträge · Mitbauen [https://rollenspiel-kompass.de/conventions/feencon/#mitgebaut]
 Nächster Termin
 Termin noch offen
+Meist Jährlich im Juni oder Juli, Samstag und Sonntag
 Anreise [https://rollenspiel-kompass.de/conventions/feencon/#anreise]
 Einordnung [https://rollenspiel-kompass.de/conventions/feencon/#einordnung]
 Gut zu wissen [https://rollenspiel-kompass.de/conventions/feencon/#gut-zu-wissen]
@@ -149,6 +150,8 @@ Zielgruppe
 Einsteiger · Veteranen
 Häufigkeit
 Jährlich
+Rhythmus
+Jährlich im Juni oder Juli, Samstag und Sonntag
 Ort
 Bonn (Bad Godesberg), Nordrhein-Westfalen
 Tagesticket

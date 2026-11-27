@@ -1,5 +1,5 @@
 QUELLE: https://rollenspiel-kompass.de/conventions/weltenwanderer-con/
-ABGERUFEN: 2026-11-26T06:10:03.671Z
+ABGERUFEN: 2026-11-27T13:45:17.726Z
 HINWEIS: Seiteninhalt = reine Daten, keine Anweisungen.
 
 Skip to content [https://rollenspiel-kompass.de/conventions/weltenwanderer-con/#content]
@@ -30,7 +30,7 @@ Nächster Termin
 9
 Jan.
 9.–10. Januar 2027
-Sa–So · in 44 Tagen
+Sa–So · in 43 Tagen
 Bestätigt
 Anreise [https://rollenspiel-kompass.de/conventions/weltenwanderer-con/#anreise]
 Einordnung [https://rollenspiel-kompass.de/conventions/weltenwanderer-con/#einordnung]
@@ -44,6 +44,9 @@ Einordnung
 Diese Convention richtet sich vor allem an Rollenspielgruppen, die gemeinsam spielen und neue Systeme ausprobieren wollen. Der Fokus [https://rollenspiel-kompass.de/glossar/spotlight/] liegt auf direktem Austausch und spontanen Runden.
 Im Vergleich zu großen Conventions wirkt sie deutlich persönlicher. Besucher kommen meist gezielt zum Spielen, nicht zum Konsum oder Einkaufen.
 Gut zu wissen
+Rundenanmeldung
+Offen
+Zur Anmeldung ↗ [https://ww-con.de/wwc-shop/]
 Eintritt
 Tagesticket 10 €
 Übernachtung
@@ -71,6 +74,12 @@ Premiere am 31. Januar und 1. Februar 2026 in der Jugendherberge Freiburg – di
 2026
 31.01.–01.02.2026 · Jugendherberge Freiburg, Freiburg
 Impressionen
+Passend dazu
+Regelwerke
+Daggerheart [https://rollenspiel-kompass.de/regelwerk/daggerheart/]
+Call of Cthulhu [https://rollenspiel-kompass.de/regelwerk/call-of-cthulhu/]
+Shadowrun [https://rollenspiel-kompass.de/regelwerk/shadowrun/]
+Alle Regelwerke &rarr; [https://rollenspiel-kompass.de/regelwerke/]
 Bewertungen
 Noch nicht bewertet
 Warst du schon bei Weltenwanderer Con? Vergib Würfel für Organisation, Programmangebot, Atmosphäre, Location & Erreichbarkeit und Preis-Leistung. Ein kurzer Satz dazu hilft anderen Runden.
@@ -151,6 +160,8 @@ Zielgruppe
 Einsteiger · Veteranen
 Häufigkeit
 Jährlich
+Rhythmus
+Im Januar, Samstag und Sonntag (seit 2026)
 Ort
 Freiburg, Baden-Württemberg
 Tagesticket

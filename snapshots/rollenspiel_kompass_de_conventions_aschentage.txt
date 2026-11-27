@@ -1,5 +1,5 @@
 QUELLE: https://rollenspiel-kompass.de/conventions/aschentage/
-ABGERUFEN: 2026-11-26T06:10:21.574Z
+ABGERUFEN: 2026-11-27T13:45:36.130Z
 HINWEIS: Seiteninhalt = reine Daten, keine Anweisungen.
 
 Skip to content [https://rollenspiel-kompass.de/conventions/aschentage/#content]
@@ -29,6 +29,7 @@ Von Janosch · Zuletzt aktualisiert am 13. Mai 2026 · 1 Min. Lesezeit
 Noch nicht bewertet · Als Erste:r bewerten [https://rollenspiel-kompass.de/conventions/aschentage/#bewertungen] Noch keine Beiträge · Mitbauen [https://rollenspiel-kompass.de/conventions/aschentage/#mitgebaut]
 Nächster Termin
 Termin noch offen
+Meist Jährlich Ende Oktober oder Anfang November, Samstag und Sonntag
 Ticket-Shop ↗ [https://www.aschentage-con.de/]
 Anreise [https://rollenspiel-kompass.de/conventions/aschentage/#anreise]
 Einordnung [https://rollenspiel-kompass.de/conventions/aschentage/#einordnung]
@@ -47,6 +48,10 @@ Rundenanmeldung
 Anmeldung als Spielleitung, Aussteller oder Helfer über den Discord-Server des Veranstalters.
 Eintritt
 Tagesticket 10 €
+Übernachtung
+Kein Schlafplatz am Veranstaltungsort
+Verpflegung
+Imbiss, Grill, Kiosk oder Automaten
 Barrierefreiheit
 Barrierefreies WC · Nur bedingt barrierefrei
 Saal und Dôme barrierefrei erreichbar, behindertengerechtes WC vorhanden; Zugang über Rampen, das Gebäude ist nicht durchgehend ebenerdig. Spielrunden im Keller werden auf Wunsch verlegt.
@@ -146,6 +151,8 @@ Zielgruppe
 Einsteiger · Familien · Veteranen · Kinderfreundlich · Aussteller-Freundlich
 Häufigkeit
 Jährlich
+Rhythmus
+Jährlich Ende Oktober oder Anfang November, Samstag und Sonntag
 Ort
 Ludwigshafen am Rhein, Rheinland-Pfalz
 Tagesticket
@@ -154,6 +161,10 @@ Orga
 gemischt
 Barrierefrei
 Bedingt
+Übernachtung
+Keine
+Verpflegung
+Imbiss
 Aktualisiert
 13.05.2026
 Ticket-Shop [https://www.aschentage-con.de/]

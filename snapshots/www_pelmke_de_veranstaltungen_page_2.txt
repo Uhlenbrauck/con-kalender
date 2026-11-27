@@ -1,5 +1,5 @@
 QUELLE: https://www.pelmke.de/veranstaltungen/page/2/
-ABGERUFEN: 2026-11-26T06:11:38.948Z
+ABGERUFEN: 2026-11-27T13:46:50.453Z
 HINWEIS: Seiteninhalt = reine Daten, keine Anweisungen.
 
 Zum Inhalt springen [https://www.pelmke.de/veranstaltungen/page/2/#content]
@@ -83,8 +83,6 @@ Pelmke bei Insta [https://www.instagram.com/kulturzentrumpelmke/]
 Kino Babylon bei Insta [https://www.instagram.com/kinobabylon/]
 Home [https://www.pelmke.de/] // Veranstaltungen [https://www.pelmke.de/veranstaltungen/] // Seite 2
 Veranstaltungen
-Fr. 18.12., 19:30 Uhr
-Erwin-Kostedde-Kickerturnier 2026 [https://www.pelmke.de/veranstaltungen/kickerturnier-2026/]
 Sa. 19.12., 19:30 Uhr
 Soul Invaders / Tuffi Slippers / Putrid Cave / tba [https://www.pelmke.de/veranstaltungen/soul-invaders-tuffi-slippers-the-mad-moiselles-putrid-cave/]
 So. 20.12., 18:00 Uhr
@@ -118,15 +116,15 @@ Sundowner Collective – After Work Party
 freestyling w/ inagee [https://www.pelmke.de/veranstaltungen/sundowner-collective-after-work-party-freestyling-w-inagee-14/]
 Sa. 12.06.2027, 19:00 Uhr
 10 Jahre Clashing Minds – Das Jubiläumskonzert [https://www.pelmke.de/veranstaltungen/clashing-minds/]
+Do. 24.06.2027, 19:00 Uhr
+Sundowner Collective – After Work Party
+freestyling w/ inagee [https://www.pelmke.de/veranstaltungen/sundowner-collective-after-work-party-freestyling-w-inagee-15/]
 Zurück [https://www.pelmke.de/veranstaltungen/] 2 Vor [https://www.pelmke.de/veranstaltungen/page/3/]
 Nächstes Event
-Fr. 27.11., 20:00 Uhr
-Poetry Slam – moderiert von Jan Schmidt [https://www.pelmke.de/veranstaltungen/poetry-slammoderiert-von-jan-schmidt-5/]
-[https://www.pelmke.de/veranstaltungen/poetry-slammoderiert-von-jan-schmidt-5/]
+Sa. 28.11., 11:00 Uhr
+Auflegen mit Vinyl für Anfänger – Workshop mit Scala Soundsystem [https://www.pelmke.de/veranstaltungen/auflegen-mit-vinyl-fuer-anfaenger-workshop-mit-scala-soundsystem-2/]
+[https://www.pelmke.de/veranstaltungen/auflegen-mit-vinyl-fuer-anfaenger-workshop-mit-scala-soundsystem-2/]
 weitere Highlights
-Fr. 11.12., 20:00 Uhr
-StandUp-Comedy [https://www.pelmke.de/veranstaltungen/standup-comedy-5/]
-[https://www.pelmke.de/veranstaltungen/standup-comedy-5/]
 Sa. 12.12., 20:00 Uhr
 Kneipenkonzert Kasra & Jules [https://www.pelmke.de/veranstaltungen/kneipenkonzert-kasra-jules/]
 [https://www.pelmke.de/veranstaltungen/kneipenkonzert-kasra-jules/]
@@ -139,6 +137,9 @@ Kneipenquiz – Demokratie am Tresen [https://www.pelmke.de/veranstaltungen/knei
 Fr. 18.12., 19:30 Uhr
 Erwin-Kostedde-Kickerturnier 2026 [https://www.pelmke.de/veranstaltungen/kickerturnier-2026/]
 [https://www.pelmke.de/veranstaltungen/kickerturnier-2026/]
+Sa. 19.12., 19:30 Uhr
+Soul Invaders / Tuffi Slippers / Putrid Cave / tba [https://www.pelmke.de/veranstaltungen/soul-invaders-tuffi-slippers-the-mad-moiselles-putrid-cave/]
+[https://www.pelmke.de/veranstaltungen/soul-invaders-tuffi-slippers-the-mad-moiselles-putrid-cave/]
 Toggle Navigation Impressum [https://www.pelmke.de/impressum/]
 Datenschutzerklärung [https://www.pelmke.de/datenschutzerklaerung/]
 Kino-Programm [https://www.pelmke.de/kino/kino-programm/]

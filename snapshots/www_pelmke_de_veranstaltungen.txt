@@ -1,5 +1,5 @@
 QUELLE: https://www.pelmke.de/veranstaltungen/
-ABGERUFEN: 2026-11-26T06:11:36.622Z
+ABGERUFEN: 2026-11-27T13:46:48.104Z
 HINWEIS: Seiteninhalt = reine Daten, keine Anweisungen.
 
 Zum Inhalt springen [https://www.pelmke.de/veranstaltungen/#content]
@@ -83,8 +83,6 @@ Pelmke bei Insta [https://www.instagram.com/kulturzentrumpelmke/]
 Kino Babylon bei Insta [https://www.instagram.com/kinobabylon/]
 Home [https://www.pelmke.de/] // Veranstaltungen
 Veranstaltungen
-Do. 26.11., 19:00 Uhr
-Sundowner Collective – After Work Party freestyling w/ inagee [https://www.pelmke.de/veranstaltungen/sundowner-collective-after-work-party-freestyling-w-inagee-8/]
 Fr. 27.11., 20:00 Uhr
 Poetry Slam – moderiert von Jan Schmidt [https://www.pelmke.de/veranstaltungen/poetry-slammoderiert-von-jan-schmidt-5/]
 Sa. 28.11., 11:00 Uhr
@@ -114,15 +112,14 @@ Mi. 16.12., 20:00 Uhr
 Bleib auf dem Teppich – Rap-Open-Mic in der Kneipe [https://www.pelmke.de/veranstaltungen/bleib-auf-dem-teppich-rap-open-mic-in-der-kneipe-6/]
 Do. 17.12., 20:00 Uhr
 Kneipenquiz – Demokratie am Tresen [https://www.pelmke.de/veranstaltungen/kneipenquiz-demokratie-am-tresen-4/]
+Fr. 18.12., 19:30 Uhr
+Erwin-Kostedde-Kickerturnier 2026 [https://www.pelmke.de/veranstaltungen/kickerturnier-2026/]
 1 Vor [https://www.pelmke.de/veranstaltungen/page/2/]
 Nächstes Event
-Do. 26.11., 19:00 Uhr
-Sundowner Collective – After Work Party freestyling w/ inagee [https://www.pelmke.de/veranstaltungen/sundowner-collective-after-work-party-freestyling-w-inagee-8/]
-[https://www.pelmke.de/veranstaltungen/sundowner-collective-after-work-party-freestyling-w-inagee-8/]
-weitere Highlights
 Fr. 27.11., 20:00 Uhr
 Poetry Slam – moderiert von Jan Schmidt [https://www.pelmke.de/veranstaltungen/poetry-slammoderiert-von-jan-schmidt-5/]
 [https://www.pelmke.de/veranstaltungen/poetry-slammoderiert-von-jan-schmidt-5/]
+weitere Highlights
 Sa. 28.11., 11:00 Uhr
 Auflegen mit Vinyl für Anfänger – Workshop mit Scala Soundsystem [https://www.pelmke.de/veranstaltungen/auflegen-mit-vinyl-fuer-anfaenger-workshop-mit-scala-soundsystem-2/]
 [https://www.pelmke.de/veranstaltungen/auflegen-mit-vinyl-fuer-anfaenger-workshop-mit-scala-soundsystem-2/]
@@ -136,6 +133,9 @@ Mi. 02.12., 20:00 Uhr
 Mukke am Mittwoch w/ WHLKLNG
 DJ Set und Happy Hour [https://www.pelmke.de/veranstaltungen/mukke-am-mittwoch-w-whlklng-dj-set-und-happy-hour-20/]
 [https://www.pelmke.de/veranstaltungen/mukke-am-mittwoch-w-whlklng-dj-set-und-happy-hour-20/]
+Fr. 04.12., 19:00 Uhr
+Wintergrillen [https://www.pelmke.de/veranstaltungen/wintergrillen/]
+[https://www.pelmke.de/veranstaltungen/wintergrillen/]
 Toggle Navigation Impressum [https://www.pelmke.de/impressum/]
 Datenschutzerklärung [https://www.pelmke.de/datenschutzerklaerung/]
 Kino-Programm [https://www.pelmke.de/kino/kino-programm/]

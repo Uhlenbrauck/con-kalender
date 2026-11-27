@@ -4,7 +4,7 @@
     "from": null,
     "file": "www_we20_de_events.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:09:59.613Z",
+    "fetched_at": "2026-11-27T13:45:13.964Z",
     "via": "fetch"
   },
   {
@@ -12,7 +12,7 @@
     "from": null,
     "file": "rollenspiel_kompass_de_conventions.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:01.564Z",
+    "fetched_at": "2026-11-27T13:45:15.880Z",
     "via": "fetch"
   },
   {
@@ -20,7 +20,7 @@
     "from": "https://rollenspiel-kompass.de/conventions/",
     "file": "rollenspiel_kompass_de_conventions_weltenwanderer_con.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:03.671Z",
+    "fetched_at": "2026-11-27T13:45:17.726Z",
     "via": "fetch"
   },
   {
@@ -28,95 +28,7 @@
     "from": "https://rollenspiel-kompass.de/conventions/",
     "file": "rollenspiel_kompass_de_conventions_bavariacon.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:04.962Z",
-    "via": "fetch"
-  },
-  {
-    "url": "https://rollenspiel-kompass.de/conventions/kekscon-hannover/",
-    "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_kekscon_hannover.txt",
-    "status": 200,
-    "fetched_at": "2026-11-26T06:10:06.250Z",
-    "via": "fetch"
-  },
-  {
-    "url": "https://rollenspiel-kompass.de/conventions/fantasy-con-wien/",
-    "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_fantasy_con_wien.txt",
-    "status": 200,
-    "fetched_at": "2026-11-26T06:10:07.538Z",
-    "via": "fetch"
-  },
-  {
-    "url": "https://rollenspiel-kompass.de/conventions/dungeon-decks-und-drachenblut/",
-    "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_dungeon_decks_und_drachenblut.txt",
-    "status": 200,
-    "fetched_at": "2026-11-26T06:10:08.828Z",
-    "via": "fetch"
-  },
-  {
-    "url": "https://rollenspiel-kompass.de/conventions/niederrheincon/",
-    "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_niederrheincon.txt",
-    "status": 200,
-    "fetched_at": "2026-11-26T06:10:10.116Z",
-    "via": "fetch"
-  },
-  {
-    "url": "https://rollenspiel-kompass.de/conventions/eulencon/",
-    "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_eulencon.txt",
-    "status": 200,
-    "fetched_at": "2026-11-26T06:10:11.407Z",
-    "via": "fetch"
-  },
-  {
-    "url": "https://rollenspiel-kompass.de/conventions/nordcon/",
-    "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_nordcon.txt",
-    "status": 200,
-    "fetched_at": "2026-11-26T06:10:12.698Z",
-    "via": "fetch"
-  },
-  {
-    "url": "https://rollenspiel-kompass.de/conventions/lindencon/",
-    "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_lindencon.txt",
-    "status": 200,
-    "fetched_at": "2026-11-26T06:10:13.989Z",
-    "via": "fetch"
-  },
-  {
-    "url": "https://rollenspiel-kompass.de/conventions/kroenchen-con/",
-    "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_kroenchen_con.txt",
-    "status": 200,
-    "fetched_at": "2026-11-26T06:10:15.278Z",
-    "via": "fetch"
-  },
-  {
-    "url": "https://rollenspiel-kompass.de/conventions/ratcon/",
-    "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_ratcon.txt",
-    "status": 200,
-    "fetched_at": "2026-11-26T06:10:16.567Z",
-    "via": "fetch"
-  },
-  {
-    "url": "https://rollenspiel-kompass.de/conventions/kraehenfee/",
-    "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_kraehenfee.txt",
-    "status": 200,
-    "fetched_at": "2026-11-26T06:10:17.858Z",
-    "via": "fetch"
-  },
-  {
-    "url": "https://rollenspiel-kompass.de/conventions/dreieichcon/",
-    "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_dreieichcon.txt",
-    "status": 200,
-    "fetched_at": "2026-11-26T06:10:19.146Z",
+    "fetched_at": "2026-11-27T13:45:18.954Z",
     "via": "fetch"
   },
   {
@@ -124,63 +36,87 @@
     "from": "https://rollenspiel-kompass.de/conventions/",
     "file": "rollenspiel_kompass_de_conventions_adventurecon_hamburg.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:20.436Z",
+    "fetched_at": "2026-11-27T13:45:20.182Z",
     "via": "fetch"
   },
   {
-    "url": "https://rollenspiel-kompass.de/conventions/aschentage/",
+    "url": "https://rollenspiel-kompass.de/conventions/kekscon-hannover/",
     "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_aschentage.txt",
+    "file": "rollenspiel_kompass_de_conventions_kekscon_hannover.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:21.574Z",
+    "fetched_at": "2026-11-27T13:45:21.412Z",
     "via": "fetch"
   },
   {
-    "url": "https://rollenspiel-kompass.de/conventions/council-of-dragons/",
+    "url": "https://rollenspiel-kompass.de/conventions/fantasy-con-wien/",
     "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_council_of_dragons.txt",
+    "file": "rollenspiel_kompass_de_conventions_fantasy_con_wien.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:22.862Z",
+    "fetched_at": "2026-11-27T13:45:22.638Z",
     "via": "fetch"
   },
   {
-    "url": "https://rollenspiel-kompass.de/conventions/feencon/",
+    "url": "https://rollenspiel-kompass.de/conventions/dungeon-decks-und-drachenblut/",
     "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_feencon.txt",
+    "file": "rollenspiel_kompass_de_conventions_dungeon_decks_und_drachenblut.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:24.151Z",
+    "fetched_at": "2026-11-27T13:45:23.867Z",
     "via": "fetch"
   },
   {
-    "url": "https://rollenspiel-kompass.de/conventions/hamstercon/",
+    "url": "https://rollenspiel-kompass.de/conventions/niederrheincon/",
     "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_hamstercon.txt",
+    "file": "rollenspiel_kompass_de_conventions_niederrheincon.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:25.441Z",
+    "fetched_at": "2026-11-27T13:45:25.095Z",
     "via": "fetch"
   },
   {
-    "url": "https://rollenspiel-kompass.de/conventions/kamin-con/",
+    "url": "https://rollenspiel-kompass.de/conventions/eulencon/",
     "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_kamin_con.txt",
+    "file": "rollenspiel_kompass_de_conventions_eulencon.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:26.729Z",
+    "fetched_at": "2026-11-27T13:45:26.324Z",
     "via": "fetch"
   },
   {
-    "url": "https://rollenspiel-kompass.de/conventions/octocon-rheine/",
+    "url": "https://rollenspiel-kompass.de/conventions/nordcon/",
     "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_octocon_rheine.txt",
+    "file": "rollenspiel_kompass_de_conventions_nordcon.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:27.863Z",
+    "fetched_at": "2026-11-27T13:45:27.551Z",
     "via": "fetch"
   },
   {
-    "url": "https://rollenspiel-kompass.de/conventions/pen-paper-con-karben/",
+    "url": "https://rollenspiel-kompass.de/conventions/lindencon/",
     "from": "https://rollenspiel-kompass.de/conventions/",
-    "file": "rollenspiel_kompass_de_conventions_pen_paper_con_karben.txt",
+    "file": "rollenspiel_kompass_de_conventions_lindencon.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:29.152Z",
+    "fetched_at": "2026-11-27T13:45:28.777Z",
+    "via": "fetch"
+  },
+  {
+    "url": "https://rollenspiel-kompass.de/conventions/kroenchen-con/",
+    "from": "https://rollenspiel-kompass.de/conventions/",
+    "file": "rollenspiel_kompass_de_conventions_kroenchen_con.txt",
+    "status": 200,
+    "fetched_at": "2026-11-27T13:45:30.003Z",
+    "via": "fetch"
+  },
+  {
+    "url": "https://rollenspiel-kompass.de/conventions/ratcon/",
+    "from": "https://rollenspiel-kompass.de/conventions/",
+    "file": "rollenspiel_kompass_de_conventions_ratcon.txt",
+    "status": 200,
+    "fetched_at": "2026-11-27T13:45:31.227Z",
+    "via": "fetch"
+  },
+  {
+    "url": "https://rollenspiel-kompass.de/conventions/kraehenfee/",
+    "from": "https://rollenspiel-kompass.de/conventions/",
+    "file": "rollenspiel_kompass_de_conventions_kraehenfee.txt",
+    "status": 200,
+    "fetched_at": "2026-11-27T13:45:32.455Z",
     "via": "fetch"
   },
   {
@@ -188,7 +124,71 @@
     "from": "https://rollenspiel-kompass.de/conventions/",
     "file": "rollenspiel_kompass_de_conventions_polaris_hamburg.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:30.337Z",
+    "fetched_at": "2026-11-27T13:45:33.680Z",
+    "via": "fetch"
+  },
+  {
+    "url": "https://rollenspiel-kompass.de/conventions/dreieichcon/",
+    "from": "https://rollenspiel-kompass.de/conventions/",
+    "file": "rollenspiel_kompass_de_conventions_dreieichcon.txt",
+    "status": 200,
+    "fetched_at": "2026-11-27T13:45:34.905Z",
+    "via": "fetch"
+  },
+  {
+    "url": "https://rollenspiel-kompass.de/conventions/aschentage/",
+    "from": "https://rollenspiel-kompass.de/conventions/",
+    "file": "rollenspiel_kompass_de_conventions_aschentage.txt",
+    "status": 200,
+    "fetched_at": "2026-11-27T13:45:36.130Z",
+    "via": "fetch"
+  },
+  {
+    "url": "https://rollenspiel-kompass.de/conventions/council-of-dragons/",
+    "from": "https://rollenspiel-kompass.de/conventions/",
+    "file": "rollenspiel_kompass_de_conventions_council_of_dragons.txt",
+    "status": 200,
+    "fetched_at": "2026-11-27T13:45:37.225Z",
+    "via": "fetch"
+  },
+  {
+    "url": "https://rollenspiel-kompass.de/conventions/feencon/",
+    "from": "https://rollenspiel-kompass.de/conventions/",
+    "file": "rollenspiel_kompass_de_conventions_feencon.txt",
+    "status": 200,
+    "fetched_at": "2026-11-27T13:45:38.450Z",
+    "via": "fetch"
+  },
+  {
+    "url": "https://rollenspiel-kompass.de/conventions/hamstercon/",
+    "from": "https://rollenspiel-kompass.de/conventions/",
+    "file": "rollenspiel_kompass_de_conventions_hamstercon.txt",
+    "status": 200,
+    "fetched_at": "2026-11-27T13:45:39.674Z",
+    "via": "fetch"
+  },
+  {
+    "url": "https://rollenspiel-kompass.de/conventions/kamin-con/",
+    "from": "https://rollenspiel-kompass.de/conventions/",
+    "file": "rollenspiel_kompass_de_conventions_kamin_con.txt",
+    "status": 200,
+    "fetched_at": "2026-11-27T13:45:40.900Z",
+    "via": "fetch"
+  },
+  {
+    "url": "https://rollenspiel-kompass.de/conventions/octocon-rheine/",
+    "from": "https://rollenspiel-kompass.de/conventions/",
+    "file": "rollenspiel_kompass_de_conventions_octocon_rheine.txt",
+    "status": 200,
+    "fetched_at": "2026-11-27T13:45:41.991Z",
+    "via": "fetch"
+  },
+  {
+    "url": "https://rollenspiel-kompass.de/conventions/pen-paper-con-karben/",
+    "from": "https://rollenspiel-kompass.de/conventions/",
+    "file": "rollenspiel_kompass_de_conventions_pen_paper_con_karben.txt",
+    "status": 200,
+    "fetched_at": "2026-11-27T13:45:43.218Z",
     "via": "fetch"
   },
   {
@@ -196,7 +196,7 @@
     "from": "https://rollenspiel-kompass.de/conventions/",
     "file": "rollenspiel_kompass_de_conventions_sagacon_osnabrueck.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:31.626Z",
+    "fetched_at": "2026-11-27T13:45:44.445Z",
     "via": "fetch"
   },
   {
@@ -204,7 +204,7 @@
     "from": "https://rollenspiel-kompass.de/conventions/",
     "file": "rollenspiel_kompass_de_conventions_sommercon_osnabrueck.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:32.764Z",
+    "fetched_at": "2026-11-27T13:45:45.540Z",
     "via": "fetch"
   },
   {
@@ -212,7 +212,7 @@
     "from": "https://rollenspiel-kompass.de/conventions/",
     "file": "rollenspiel_kompass_de_conventions_vienna_fantasy_gaming_roleplay_convention.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:33.901Z",
+    "fetched_at": "2026-11-27T13:45:46.636Z",
     "via": "fetch"
   },
   {
@@ -220,7 +220,7 @@
     "from": "https://rollenspiel-kompass.de/conventions/",
     "file": "rollenspiel_kompass_de_conventions_wintercon_osnabrueck.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:35.038Z",
+    "fetched_at": "2026-11-27T13:45:47.731Z",
     "via": "fetch"
   },
   {
@@ -228,7 +228,7 @@
     "from": null,
     "file": "www_tanelorn_net_index_php_board_40_0.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:36.173Z",
+    "fetched_at": "2026-11-27T13:45:48.822Z",
     "via": "fetch"
   },
   {
@@ -236,7 +236,7 @@
     "from": null,
     "file": "www_tanelorn_net_index_php_board_40_20.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:37.892Z",
+    "fetched_at": "2026-11-27T13:45:50.470Z",
     "via": "fetch"
   },
   {
@@ -244,7 +244,7 @@
     "from": null,
     "file": "www_tanelorn_net_index_php_board_40_40.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:38.902Z",
+    "fetched_at": "2026-11-27T13:45:51.506Z",
     "via": "fetch"
   },
   {
@@ -252,14 +252,14 @@
     "from": null,
     "file": null,
     "status": "Fehler: ENOTFOUND / curl: Command failed: curl -sSL --compressed --max-time 40 -A Mozilla/5.0 (compatible; con-kalender-snapshot; +https://github.com/Uhlenbrauck/con-kalender) -H Accept-Language: de -o snapshots/.tmp.body -w %{http_code}\t%{content_type}\t%{url_effective} https://www.easy-con.de/",
-    "fetched_at": "2026-11-26T06:10:40.485Z"
+    "fetched_at": "2026-11-27T13:45:52.523Z"
   },
   {
     "url": "https://conservices.de/",
     "from": null,
     "file": "conservices_de.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:10:41.596Z",
+    "fetched_at": "2026-11-27T13:45:53.443Z",
     "via": "fetch"
   },
   {
@@ -267,7 +267,7 @@
     "from": null,
     "file": null,
     "status": 403,
-    "fetched_at": "2026-11-26T06:10:43.233Z",
+    "fetched_at": "2026-11-27T13:45:54.940Z",
     "via": "fetch"
   },
   {
@@ -275,7 +275,7 @@
     "from": null,
     "file": null,
     "status": 403,
-    "fetched_at": "2026-11-26T06:10:44.486Z",
+    "fetched_at": "2026-11-27T13:45:55.955Z",
     "via": "fetch"
   },
   {
@@ -283,14 +283,14 @@
     "from": null,
     "file": null,
     "status": "Fehler: UND_ERR_CONNECT_TIMEOUT / curl: Command failed: curl -sSL --compressed --max-time 40 -A Mozilla/5.0 (compatible; con-kalender-snapshot; +https://github.com/Uhlenbrauck/con-kalender) -H Accept-Language: de -o snapshots/.tmp.body -w %{http_code}\t%{content_type}\t%{url_effective} https://www.hagen.de",
-    "fetched_at": "2026-11-26T06:10:45.315Z"
+    "fetched_at": "2026-11-27T13:45:56.801Z"
   },
   {
     "url": "https://www.pelmke.de/veranstaltungen/",
     "from": null,
     "file": "www_pelmke_de_veranstaltungen.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:11:36.622Z",
+    "fetched_at": "2026-11-27T13:46:48.104Z",
     "via": "fetch"
   },
   {
@@ -298,7 +298,7 @@
     "from": "https://www.pelmke.de/veranstaltungen/",
     "file": "www_pelmke_de_veranstaltungen_page_2.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:11:38.948Z",
+    "fetched_at": "2026-11-27T13:46:50.453Z",
     "via": "fetch"
   },
   {
@@ -306,7 +306,7 @@
     "from": null,
     "file": "www_the_kraken_de.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:11:40.692Z",
+    "fetched_at": "2026-11-27T13:46:52.160Z",
     "via": "fetch"
   },
   {
@@ -314,7 +314,7 @@
     "from": null,
     "file": "neu_easy_con_org_convention_convention_ST26.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:11:41.945Z",
+    "fetched_at": "2026-11-27T13:46:53.363Z",
     "via": "fetch"
   },
   {
@@ -322,7 +322,7 @@
     "from": null,
     "file": "www_messe_dortmund_de_en_trade_fair_calendar_trade_fair_calendar_trade_fair_details_spiel_doch_in_dortmund_2027.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:11:43.651Z",
+    "fetched_at": "2026-11-27T13:46:55.108Z",
     "via": "fetch"
   },
   {
@@ -330,7 +330,7 @@
     "from": null,
     "file": "fark_messe_de.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:11:45.773Z",
+    "fetched_at": "2026-11-27T13:46:57.149Z",
     "via": "fetch"
   },
   {
@@ -338,7 +338,7 @@
     "from": null,
     "file": "www_nordcon_wizard_de.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:11:48.372Z",
+    "fetched_at": "2026-11-27T13:47:00.163Z",
     "via": "fetch"
   },
   {
@@ -346,7 +346,7 @@
     "from": null,
     "file": "www_feencon_de.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:11:49.867Z",
+    "fetched_at": "2026-11-27T13:47:01.829Z",
     "via": "fetch"
   },
   {
@@ -354,7 +354,7 @@
     "from": null,
     "file": "lindencon_rollenspielraum_de.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:11:51.668Z",
+    "fetched_at": "2026-11-27T13:47:03.368Z",
     "via": "fetch"
   },
   {
@@ -362,7 +362,7 @@
     "from": null,
     "file": "nerds_united_ev_de_bavariacon.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:11:53.684Z",
+    "fetched_at": "2026-11-27T13:47:05.335Z",
     "via": "fetch"
   },
   {
@@ -370,7 +370,7 @@
     "from": null,
     "file": "www_spiel_essen_de.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:11:55.948Z",
+    "fetched_at": "2026-11-27T13:47:07.045Z",
     "via": "fetch"
   },
   {
@@ -378,14 +378,14 @@
     "from": null,
     "file": null,
     "status": "Fehler: ERR_TLS_CERT_ALTNAME_INVALID / curl: Command failed: curl -sSL --compressed --max-time 40 -A Mozilla/5.0 (compatible; con-kalender-snapshot; +https://github.com/Uhlenbrauck/con-kalender) -H Accept-Language: de -o snapshots/.tmp.body -w %{http_code}\t%{content_type}\t%{url_effective} https://www.dreieichcon.de/",
-    "fetched_at": "2026-11-26T06:11:58.641Z"
+    "fetched_at": "2026-11-27T13:47:09.424Z"
   },
   {
     "url": "https://huegelcon.de/rollenspiele/",
     "from": null,
     "file": "huegelcon_de_rollenspiele.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:12:00.108Z",
+    "fetched_at": "2026-11-27T13:47:10.936Z",
     "via": "fetch"
   },
   {
@@ -393,7 +393,7 @@
     "from": null,
     "file": "keks_social.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:12:01.769Z",
+    "fetched_at": "2026-11-27T13:47:12.590Z",
     "via": "fetch"
   },
   {
@@ -401,7 +401,7 @@
     "from": null,
     "file": "kroenchen_con_de.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:12:04.308Z",
+    "fetched_at": "2026-11-27T13:47:17.136Z",
     "via": "fetch"
   },
   {
@@ -409,7 +409,7 @@
     "from": null,
     "file": "kraehenfee_com.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:12:06.008Z",
+    "fetched_at": "2026-11-27T13:47:18.789Z",
     "via": "fetch"
   },
   {
@@ -417,7 +417,7 @@
     "from": null,
     "file": "templecon_de_tcod.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:12:07.731Z",
+    "fetched_at": "2026-11-27T13:47:20.384Z",
     "via": "fetch"
   },
   {
@@ -425,7 +425,7 @@
     "from": null,
     "file": "www_midgard_cons_info_klostercon.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:12:10.667Z",
+    "fetched_at": "2026-11-27T13:47:22.782Z",
     "via": "fetch"
   },
   {
@@ -433,7 +433,7 @@
     "from": null,
     "file": "www_bergisch_brandschatzen_de.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:12:12.577Z",
+    "fetched_at": "2026-11-27T13:47:24.534Z",
     "via": "fetch"
   },
   {
@@ -441,14 +441,14 @@
     "from": null,
     "file": null,
     "status": "Fehler: UND_ERR_CONNECT_TIMEOUT / curl: Command failed: curl -sSL --compressed --max-time 40 -A Mozilla/5.0 (compatible; con-kalender-snapshot; +https://github.com/Uhlenbrauck/con-kalender) -H Accept-Language: de -o snapshots/.tmp.body -w %{http_code}\t%{content_type}\t%{url_effective} https://www.hagen.de/hagen-aktuell/aktuelle-meldungen/pen-and-paper-rollenspielnachmittag-in-der-stadtbuecherei-auf-der-springe-50176.html",
-    "fetched_at": "2026-11-26T06:12:14.544Z"
+    "fetched_at": "2026-11-27T13:47:26.456Z"
   },
   {
     "url": "https://beyondthedice.de/",
     "from": null,
     "file": "beyondthedice_de.txt",
     "status": 200,
-    "fetched_at": "2026-11-26T06:13:05.850Z",
+    "fetched_at": "2026-11-27T13:48:17.759Z",
     "via": "fetch"
   }
 ]
