@@ -1047,15 +1047,15 @@
   {
     "slug": "adventurecon-hamburg-2027",
     "name": "AdventureCon Hamburg 2027",
-    "start_date": null,
-    "end_date": null,
-    "date_note": "Termin 2027 offen – üblicherweise Februar (zuletzt 13.–15.02.2026)",
+    "start_date": "2027-02-26",
+    "end_date": "2027-02-28",
+    "date_note": "laut Con-Verzeichnis rollenspiel-kompass – noch nicht auf der Con-Seite",
     "city": "Hamburg",
     "address": "Kulturhaus Eidelstedt, Hamburg",
     "country": "DE",
     "lat": 53.56,
     "lon": 9.98,
-    "url": "https://rollenspiel-kompass.de/conventions/",
+    "url": "https://rollenspiel-kompass.de/conventions/adventurecon-hamburg/",
     "description": "Kleine Pen-&-Paper-Con des SDNV e.V. über ein Wochenende; Runden werden über Discord ausgeschrieben.",
     "tags": [
       "Rollenspiel"
@@ -1064,20 +1064,20 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-22"
+    "checked_at": "2026-11-28"
   },
   {
     "slug": "polaris-hamburg-2027",
     "name": "Polaris Hamburg 2027",
-    "start_date": null,
-    "end_date": null,
-    "date_note": "Termin 2027 offen – üblicherweise Oktober (zuletzt 09.–11.10.2026)",
+    "start_date": "2027-10-08",
+    "end_date": "2027-10-10",
+    "date_note": "laut Con-Verzeichnis rollenspiel-kompass – noch nicht auf der Con-Seite",
     "city": "Hamburg",
     "address": "Hamburg Messe",
     "country": "DE",
     "lat": 53.56,
     "lon": 9.98,
-    "url": "https://rollenspiel-kompass.de/conventions/",
+    "url": "https://rollenspiel-kompass.de/conventions/polaris-hamburg/",
     "description": "Große Fantasy- und Spiele-Messe in Hamburg mit Pen-&-Paper-Bereich.",
     "tags": [
       "Rollenspiel"
@@ -1086,7 +1086,7 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-22"
+    "checked_at": "2026-11-28"
   },
   {
     "slug": "templecon-of-darkness-2027",
@@ -1160,7 +1160,7 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-22"
+    "checked_at": "2026-11-28"
   },
   {
     "slug": "sirowe-2027",
@@ -1183,7 +1183,7 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-22"
+    "checked_at": "2026-11-28"
   },
   {
     "slug": "cavecon-2027",
@@ -1253,7 +1253,7 @@
     "lodging": null,
     "deadlines": [],
     "status": "angekündigt",
-    "checked_at": "2026-11-22"
+    "checked_at": "2026-11-28"
   },
   {
     "slug": "erlanger-spieletage-2027",
